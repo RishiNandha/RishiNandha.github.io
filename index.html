@@ -1,47 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PDF Viewer</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        height: 100vh; /* Full height of the viewport */
-        display: flex;
-        flex-direction: column;
-      }
-      #title-bar {
-        background-color: #333;
-        color: #fff;
-        padding: 10px;
-        text-align: center;
-      }
-      #pdf-container {
-        flex: 1; /* Fill remaining height */
-        display: flex;
-        justify-content: space-between;
-        margin-top: 20px;
-        overflow-x: auto; /* Horizontal scrolling if needed */
-      }
-      .pdf-embed {
-        width: 50%;
-        max-width: 100%; /* Ensure the width doesn't exceed container width */
-        height: 100%;
-        border: 1px solid #ccc;
-        padding: 10px;
-      }
-    </style>
-    </head>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, height=device-height">
+<title>Rishi Nandha V</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 95vh; /* Full height of the viewport */
+    display: flex;
+    flex-direction: column;
+    background-color: #222121; /* Grey background */
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+  }
+  #title-bar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    width: 99%; /* Full width */
+  }
+  #pdf-container {
+    margin-top: 20px;
+    width: 100%; /* Adjust width as needed */
+    max-width: 900px; /* Set maximum width */
+    background-color: #fff; /* White background for PDF container */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow */
+    overflow: hidden; /* Hide overflow to prevent scrolling */
+  }
+  .pdf-embed {
+    width: 100%;
+    height: 90vh; /* Full height of the viewport */
+    border: none; /* Remove border */
+  }
+</style>
+</head>
 <body>
 <div id="title-bar">
-  <img src="profile_picture_url" alt="Profile Picture" style="width: 50px; height: 50px; border-radius: 50%;">
-  <h1>Your Name</h1>
+  <h1>My CV</h1>
 </div>
 <div id="pdf-container">
-  <embed class="pdf-embed" src="CV_Btech_pic3.pdf" type="application/pdf" />
   <embed class="pdf-embed" src="CV_Btech_pic3.pdf" type="application/pdf" />
 </div>
 </body>
