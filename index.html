@@ -1,107 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<link rel="icon" type="image/png" href="assets/fotor-2024031492244.png">
-
-<meta property="og:title" content="Rishi Nandha V's CV">
-<meta property="og:description" content="I am Rishi. I am a student at IIT Madras and have a keen passion for IC Design and Audio Technology">
-<meta property="og:image" content="assets/pfp.png">
-<meta property="og:url" content="https://rishinandha.github.io/">
-
-<title>Rishi Nandha V's CV</title>
-<style>
-  body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100vh; /* Full height of the viewport */
-    display: flex;
-    flex-direction: column;
-    background-color: #222121; /* Grey background */
-    justify-content: center; /* Center content vertically */
-    align-items: center; /* Center content horizontally */
-  }
-  #title-bar {
-    background-color: #333;
-    color: #fff;
-    padding: 0px;
-    text-align: center;
-    width: 100%; /* Full width */
-  }
-  #pdf-container {
-    margin-top: 7px;
-    width: 100%; /* Adjust width as needed */
-    max-width: 950px; /* Set maximum width */
-    background-color: #fff; /* White background for PDF container */
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Add shadow */
-    overflow: hidden; /* Hide overflow to prevent scrolling */
-    display: none; /* Initially hide PDF container */
-  }
-  .pdf-embed {
-    width: 100%;
-    height: 99vh; /* Full height of the viewport */
-    border: none; /* Remove border */
-  }
-  .pdf-link {
-    display: none; /* Initially hide PDF link */
-    flex-direction: column;
-    align-items: center; /* Center items horizontally */
-    justify-content: center; /* Center items vertically */
-    text-align: center; /* Center text */
-    color: #fff; /* White text color */
-    font-weight: bold; /* Bold font */
-    height: 99vh;
-  }
-  .blue-button {
-    background-color: #007bff; /* Blue button color */
-    color: #fff; /* White text color */
-    font-weight: bold; /* Bold font */
-    padding: 10px 20px; /* Padding */
-    border: none; /* No border */
-    text-decoration: none; /* No underline */
-    border-radius: 5px; /* Rounded corners */
-  }
-  .blue-button:hover {
-    background-color: #0056b3; /* Darker blue on hover */
-  }
-
-  /* Media query for desktop devices */
-  @media only screen and (min-width: 769px) {
-    #pdf-container {
-      display: block; /* Show PDF container for desktop */
-    }
-    .pdf-link {
-      display: none; /* Hide PDF link for desktop */
-    }
-  }
-
-  /* Media query for mobile devices */
-  @media only screen and (max-width: 768px) {
-    #pdf-container {
-      display: none; /* Hide PDF container for mobile */
-    }
-    .pdf-link {
-      display: flex; /* Show PDF link for mobile */
-    }
-  }
-</style>
-</head>
-<body>
-<div id="title-bar">
-  <h3>My CV</h3>
-</div>
-<div id="pdf-container">
-  <embed class="pdf-embed" src="Resume_Aug_2025.pdf" type="application/pdf" />
-</div>
-
-<!-- Direct link to the PDF file for mobile viewers -->
-<div class="pdf-link">
-  <p>It appears you're on a mobile device</p>
-  <p style="margin-top: 20px;"><a href="Resume_Aug_2025.pdf" class="blue-button">Open in a new tab</a></p>
-</div>
-
-
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/x-icon" href="/RishiNandha.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rishi Nandha Vanchinathan</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
