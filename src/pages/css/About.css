@@ -55,14 +55,15 @@ margin-bottom: 2rem;
 
 .about-right {
   flex: 1;
-  max-width: 400px;
+  /* max-width: 25rem; */
   justify-content: center;
   align-items: center;
+  margin-left: 1.5rem;
 }
 
 .profile-image {
-  width: 100%;
-  border-radius: 10px;
+  width: 90%;
+  border-radius: 2rem;
 }
 
 /* Mobile responsiveness */
@@ -70,12 +71,25 @@ margin-bottom: 2rem;
   .about-container {
     flex-direction: column-reverse; /* Puts image on top on mobile */
     text-align: center;
+    min-height: 10vh;
   }
   .social-links {
     justify-content: center;
     display: flex;
   }
   .about-right{
-    max-height: 27vh;
+    max-height: 45vh;
+    margin-left: 0rem;
+    margin-bottom: -4rem;
+  }
+  .about-left {
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .profile-image {
+    margin-left: 0rem;
+    max-width: 40vh;
+    height: 90%;
+    border-radius: 2rem;
   }
 }
