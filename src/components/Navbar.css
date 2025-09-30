@@ -44,7 +44,7 @@
 
 .nav-link:hover, .nav-link.active {
   color: #0677f0; /* deeper, modern blue */
-  background-color: #d0d0d0; /* light highlight against #E0E0E0 */
+  background-color: #dadada; /* light highlight against #E0E0E0 */
   box-shadow: inset 0 -2px 4px rgba(0,0,0,0.1);
 }
 
