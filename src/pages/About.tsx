@@ -7,7 +7,7 @@ import './css/About.css';
 
 const About = () => {
   return (
-    <div className="about-container">
+    <div className="about-container widthlimit">
       <div className="about-left">
         <h1>Hi! I'm Rishi</h1>
         <div className="social-links">

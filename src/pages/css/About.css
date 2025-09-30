@@ -6,13 +6,16 @@
   gap: 2rem;
   padding: 2rem;
   min-height: 70vh;
+  /* width: 100%;      instead of 80vw */
+  max-width: 1000px; /* optional: cap on large screens */
+  margin: 0 0;   /* center if capped */
 }
 
 .about-left {
   flex: 1;
   max-width: 60vw;
   text-justify: inter-word;
-  
+  min-width: 50%;
 }
 
 .about-left h1 {
@@ -54,16 +57,18 @@ margin-bottom: 2rem;
 }
 
 .about-right {
-  flex: 1;
+  display: flex;
   /* max-width: 25rem; */
   justify-content: center;
   align-items: center;
-  margin-left: 1.5rem;
+  padding: 0rem 0.5rem;
 }
 
 .profile-image {
-  width: 90%;
+  width: 100%;
   border-radius: 2rem;
+  max-height: 50vh;
+  max-width: 50vh;
 }
 
 /* Mobile responsiveness */
@@ -89,10 +94,11 @@ margin-bottom: 2rem;
     max-width: 70vw;
   }
   .profile-image {
-    margin-left: 0rem;
-    max-width: 40vh;
+    max-width: 25vh;
+    max-height: 25vh;
     height: 90%;
     border-radius: 2rem;
+    margin-bottom: -1rem;
   }
   .about-left h1 {
   font-size: 2.5rem;
