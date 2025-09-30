@@ -1,0 +1,17 @@
+[
+{
+    "title": "RF Clock Distribution for 5G Terahertz",
+    "imageSrc": "/projects/imc.jpeg",
+    "description": 
+    "I worked at the 5G Testbed (Now called 6G TeraHertz Testbed) during my Undergraduate Studies. The lab was preparing a demonstration of Intelligent Reflecting Surfaces to be displayed at the Indian Mobile Congress 2024. I designed a Clock Rack (Seen at left bottom of the image) which provides GPS Synchronized RF clocks upto 100s of MHz. The rack was used to synchronize the Baseband Units used for the demonstration.",
+    "links": [
+        { 
+            "link": "https://www.linkedin.com/posts/reachiitm_iitmadras-imc2024-iitmadras-activity-7252925384659251200-6GJp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFUEDMBg6bwAubEMKMjJ4_VbT5FUlfOeD0", 
+            "annotation": "Linkedin Post by IIT Madras"
+        }
+    ],
+    "year": 2021,
+    "type": "research"
+}
+]
+

@@ -1,32 +1,51 @@
-type ProjProps = {
-    title: string;
-    description: string;
-    links: LinkObjs[];
-    imageSrc: string;
-    type: 'research' | 'other';
-    year: number;
-}
+import "./Iproject.css"
 
-type LinkObjs = {
-    link: string;
-    annotation: string;
-}
+export type LinkObj = {
+  link: string;
+  annotation: string;
+};
 
-export function Iproject(props : ProjProps) {
-    return (
-        <div className="flex">
-            <h5>The ODIN neuromorphic processor (2016-2020)</h5>
+export type ProjProps = {
+  title: string;
+  imageSrc: string;
+  description: string;
+  links: LinkObj[];
+  year: number;
+  type: "research" | "other"
+};
 
-            <div class="2 col card">
-                <img id="chip_image" src="images/chips/ODIN.jpg">
+
+export function Iproject(props: ProjProps) {
+  return (
+    <div className="oneunit">
+    <div className="left">
+        <h2 className="project-title">{props.title} ({props.year})</h2>
+    </div>
+    <div className="project-card">
+      <div className="project-left">
+            
+            <div className="image-wrapper">
+            <img src={props.imageSrc} alt={`Image showing ${props.title}`} />
             </div>
+      </div>
 
-            <div class="2 col card">
-                <p style="text-align:justify">The ODIN 256-neuron 64k-synapse neuromorphic processor (28-nm CMOS) highlights how design constraints on the synapses can be released by offloading most synaptic computations at the neuron level. All synapses embed spike-driven synaptic plasticity (SDSP), while neurons are able to phenomenologically reproduce the 20 Izhikevich behaviors of cortical spiking neurons. At the time of publication, ODIN demonstrated the highest neuron and synapse densities, and the lowest energy per synaptic operation among digital designs.</p>
-                <p style="text-align:center"><a class="btn_transparent" href="#FrenkelISCAS17" target="_blank">Synapse block (ISCAS'17)</a> &nbsp; <a class="btn_transparent" href="#FrenkelBioCAS17" target="_blank">Neuron block (BioCAS'17)</a></p>
-                <p style="text-align:center"><a class="btn_transparent" href="#FrenkelTBioCAS19a" target="_blank">Chip (Trans. BioCAS'19)</a> &nbsp; <a class="btn_transparent" href="#CeoliniFrenkelShresthaFrontiers20" target="_blank">EMG classif. (Front. Neur.'20)</a></p>
-                <p style="text-align:center"><a class="btn_link_2" href="https://github.com/ChFrenkel/ODIN" target="_blank">Open-source HW</a></p>
+      <div className="project-right">
+            <p className="project-description">{props.description}</p>
+            <div className="project-links">
+            {props.links.map((item, index) => (
+                <a
+                key={index}
+                className="project-link"
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                >
+                {item.annotation}
+                </a>
+            ))}
             </div>
-        </div>
-    );
+      </div>
+    </div>
+    </div>
+  );
 }
