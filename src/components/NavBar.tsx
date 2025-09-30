@@ -4,6 +4,7 @@ import './Navbar.css';
 
 const Navbar = () => {
   return (
+    <div className="navbar-parent">
     <div className="navbar">
       <nav className="navbar-content">
         <NavLink to="/" className="nav-brand">Rishi Nandha Vanchinathan</NavLink>
@@ -15,6 +16,7 @@ const Navbar = () => {
         <NavLink to="/blog" className={({ isActive }) => isActive ? "nav-link active" : "nav-link"}>Blog</NavLink>
       </div>
     </nav>
+  </div>
   </div>
   );
 };

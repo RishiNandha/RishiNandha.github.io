@@ -1,4 +1,12 @@
 /* src/components/Navbar.css */
+.navbar-parent{
+  display: flex;
+  justify-content: center;  /* centers the inner container */
+  align-items: center;
+  width: 100%;
+  padding: 0.2vh 0;
+}
+
 .navbar {
   display: flex;
   justify-content: center;  /* centers the inner container */
@@ -6,6 +14,7 @@
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   padding: 1rem 2rem;
   border-radius: 1rem;
+  width: calc(100vw - 2vh);
   /* max-width: 1800px; */
 }
 
