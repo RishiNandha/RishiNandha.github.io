@@ -14,6 +14,13 @@
     "linkType": "youtube"
   },
   {
+    "title": "A Saudadic Dream - For Mixed Orchestra",
+    "embedUrl": "https://www.youtube.com/embed/8fkk_yOJy-k?si=-w4wDcfvAk9Uxh4Z&amp;start=260",
+    "description": "I wrote a piece for the online orchestra 'Reddit Symphony' (4:20 - 6:19). 'Saudade' is a feeling of profound longing. It's about a dream that starts with grief and resentful but ends with promises and hope.",
+    "type": "original",
+    "linkType": "youtube"
+  },
+  {
     "title": "Master Of Puppets, at IIT Madras Open Air Theatre",
     "embedUrl": "https://www.youtube.com/embed/QjHDSATHPkE?si=BVtvFXxsR4if7dCV",
     "description": "A day before the show we decided we'll do this, and one of the best experiences of my life. We had to recover this from multiple mobile recordings!",
@@ -24,6 +31,13 @@
     "title": "Hangar 18, in a jam room",
     "embedUrl": "https://www.youtube.com/embed/El_q5R1cCSs?si=XTXnPVC8MRIKTM_P",
     "description": "We decided we have to cover a dual guitar song before my roommate from undergrad days graduated. So we covered this one",
+    "type": "cover",
+    "linkType": "youtube"
+  },
+  {
+    "title": "Standchen (Schubert), with an Online Orchestra",
+    "embedUrl": "https://www.youtube.com/embed/_QTiIRVnF24?si=LQeUgVrIMBSrgXMf",
+    "description": "A beautiful Lieder by Schubert, arranged by Arianna. I played the Contrabasso part on an Electric Bass. We decided to keep it for the depth it added to the tone!",
     "type": "cover",
     "linkType": "youtube"
   }
