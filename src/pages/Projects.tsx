@@ -1,5 +1,5 @@
 import {Iproject} from "../components/Iproject"
-import type { LinkObj, ProjProps } from "../components/Iproject";
+import type { ProjProps } from "../components/Iproject";
 
 import projectsData from "../assets/projects/projects.json"
 
