@@ -1,0 +1,77 @@
+/* src/pages/About.css */
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+  min-height: 70vh;
+}
+
+.about-left {
+  flex: 1;
+  max-width: 60vw;
+  text-justify: inter-word;
+  
+}
+
+.about-left h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.about-left p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+  margin-bottom: 2rem;
+}
+
+.about-left a {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  text-align: justify;
+  color: #007bff;
+margin-bottom: 2rem;
+}
+
+.social-links {
+  margin-bottom: 1.5rem;
+}
+
+.social-links a {
+  font-size: 2rem;
+  margin-right: 1rem;
+  color: #d9a931;
+  transition: color 0.2s;
+  margin-bottom: 2rem;
+}
+
+.social-links a:hover {
+  color: #007bff;
+}
+
+.about-right {
+  flex: 1;
+  max-width: 400px;
+}
+
+.profile-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .about-container {
+    flex-direction: column-reverse; /* Puts image on top on mobile */
+    text-align: center;
+  }
+  .social-links {
+    justify-content: center;
+    display: flex;
+  }
+  .about-right{
+    max-height: 27vh;
+  }
+}
