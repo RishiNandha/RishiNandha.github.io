@@ -92,4 +92,8 @@ margin-bottom: 2rem;
     height: 90%;
     border-radius: 2rem;
   }
+  .about-left h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
 }
