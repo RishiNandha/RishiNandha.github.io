@@ -16,10 +16,13 @@ export type ProjProps = {
 
 
 export function Iproject(props: ProjProps) {
-  return (
+    const currentYear = new Date().getFullYear();
+    const yearLabel = props.year > currentYear ? `Ongoing` : props.year;
+    
+    return (
     <div className="oneunit">
     <div className="left">
-        <h2 className="project-title">{props.title} ({props.year})</h2>
+        <h2 className="project-title">{props.title} ({yearLabel})</h2>
     </div>
     <div className="project-card">
       <div className="project-left">

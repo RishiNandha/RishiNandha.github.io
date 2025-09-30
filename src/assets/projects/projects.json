@@ -1,17 +1,59 @@
 [
-{
-    "title": "RF Clock Distribution for 5G Terahertz",
-    "imageSrc": "/projects/imc.jpeg",
-    "description": 
-    "I worked at the 5G Testbed (Now called 6G TeraHertz Testbed) during my Undergraduate Studies. The lab was preparing a demonstration of Intelligent Reflecting Surfaces to be displayed at the Indian Mobile Congress 2024. I designed a Clock Rack (Seen at left bottom of the image) which provides GPS Synchronized RF clocks upto 100s of MHz. The rack was used to synchronize the Baseband Units used for the demonstration.",
-    "links": [
-        { 
-            "link": "https://www.linkedin.com/posts/reachiitm_iitmadras-imc2024-iitmadras-activity-7252925384659251200-6GJp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFUEDMBg6bwAubEMKMjJ4_VbT5FUlfOeD0", 
-            "annotation": "Linkedin Post by IIT Madras"
-        }
-    ],
-    "year": 2021,
-    "type": "research"
-}
+    {
+        "title": "Wideband Full Duplex Transceiver",
+        "imageSrc": "/projects/FD.png",
+        "description": "I am taping out a transceiver that aims to demonstrate the capability of both transmitting and receiving at the same time in the same frequency through the same antenna (aka Same-Channel Full-Duplex). Dr. Abhishek Kumar demonstrated in 2018 that this is possible in 2.4 GHz for a 20 MHz bandwidth, I am extending this to show the same at 7 GHz with a 400 MHz bandwidth",
+        "links":[
+            {
+                "link": "https://ieeexplore.ieee.org/document/8315501",
+                "annotation": "Kumar et al. (TCAS-I, Oct-2018)"
+            },
+            {
+                "link": "https://www.ee.iitm.ac.in/ani/",
+                "annotation": "Advisor: Prof. Aniruddhan"
+            }
+        ],
+        "year": 2026,
+        "type":"research"
+    },
+    {
+        "title": "RF Clock Distribution for 5G Terahertz",
+        "imageSrc": "/projects/imc.jpeg",
+        "description": 
+        "I worked at the 5G Testbed (Now called 6G TeraHertz Testbed) during my Undergraduate Studies. The lab was preparing a demonstration of Intelligent Reflecting Surfaces to be displayed at the Indian Mobile Congress 2024. I designed a Clock Rack (Seen at left bottom of the image) which provides GPS Synchronized RF clocks upto 100s of MHz. The rack was used to synchronize the Baseband Units used for the demonstration.",
+        "links": [
+            { 
+                "link": "https://www.linkedin.com/posts/reachiitm_iitmadras-imc2024-iitmadras-activity-7252925384659251200-6GJp?utm_source=share&utm_medium=member_desktop&rcm=ACoAADFUEDMBg6bwAubEMKMjJ4_VbT5FUlfOeD0", 
+                "annotation": "Linkedin Post by IIT Madras"
+            },
+            {
+                "link": "https://www.rkganti.in/",
+                "annotation": "Advisor: Prof. RK Ganti"
+            }
+        ],
+        "year": 2024,
+        "type": "research"
+    },
+    {
+        "title": "Neural Networks with Sigmoid Weights for RRAM Crossbars",
+        "imageSrc": "/projects/bnn.png",
+        "description": "As part of courework, we were tasked to train a 2-layer neural network, quantize the weights to 1-bit post-training and inference them on a passive RRAM Synaptic Array. We explored this further and tried formulated training methods for using sigmoid weights to mirror the binary nature instead of quantizing post-training. We compared our results with the same dataset that was used by Li et al in their Nature Communications 2018 paper.",
+        "links": [
+            {
+                "link": "https://github.com/RishiNandha/CMOS-Binary-Neural-Network/blob/47cf71b09709e14cf668042fba5bd74f387e40de/Documentation.pdf",
+                "annotation": "Write-Up"
+            },
+            {
+                "link":"https://scholar.google.com/citations?user=kyjPyQMAAAAJ&hl=en",
+                "annotation": "Advisor: Prof. Bhaswar" 
+            },
+            {
+                "link": "https://www.nature.com/articles/s41467-023-40770-4",
+                "annotation": "Li et al.'s Paper"
+            }
+        ],
+        "year": 2024,
+        "type":"research"
+    }
 ]
 
