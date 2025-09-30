@@ -45,6 +45,7 @@
 
 /* 📱 Mobile */
 @media (max-width: 768px) {
+
   .music-card {
     padding: 1rem;
     border-radius: 1rem;

@@ -6,6 +6,8 @@ import musicData from "../assets/music/music.json";
 
 const musicList = musicData as MusicProps[];
 
+import "../components/Iproject.css"
+
 const Music = () => {
   useEffect(() => {
     const hasInstagram = musicList.some((track) => track.linkType === "instagram");
