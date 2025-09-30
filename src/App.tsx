@@ -35,8 +35,8 @@ function App() {
   return (
     <Router basename="/">
       <Routes>
-  <Route path="/CV" element={<CV />} />
-  <Route path="/cv" element={<CV />} />
+  {/* <Route path="/CV" element={<CV />} /> */}
+  {/* <Route path="/cv" element={<CV />} /> */}
         <Route path="*" element={<MainLayout />}/>
       </Routes>
     </Router>
