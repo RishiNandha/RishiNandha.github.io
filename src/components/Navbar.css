@@ -39,7 +39,6 @@
   transition: color 0.1s, background-color 0.1s;
   padding: 0.5rem 0.7rem;
   border-radius: 0.5rem;
-  
 }
 
 .nav-link:hover, .nav-link.active {
@@ -70,5 +69,14 @@
   }
   .navbar-content {
     justify-content: center;
+  }
+  .nav-brand {
+  font-size: 1.3rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #222;
+  }
+  .nav-link {
+  padding: 0.3rem 0.5rem;
   }
 }
