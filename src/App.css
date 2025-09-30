@@ -10,6 +10,14 @@
   padding: 0.5rem 0.5rem;
 }
 
+.centered {
+  align-items: center;
+  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
 .hfill {
   justify-content: space-between;
 }
