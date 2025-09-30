@@ -14,8 +14,8 @@
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   padding: 1rem 2rem;
   border-radius: 1rem;
-  width: calc(100vw - 2vh);
-  /* max-width: 1800px; */
+  width: calc(100vw - 9vh);
+  margin: 0 auto;
 }
 
 /* New container inside navbar */
