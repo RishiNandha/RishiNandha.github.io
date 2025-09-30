@@ -36,7 +36,9 @@ margin-bottom: 2rem;
 }
 
 .social-links {
-  margin-bottom: 1.5rem;
+  margin-bottom: -2rem;
+  display: flex;
+  gap: 1rem;
 }
 
 .social-links a {
