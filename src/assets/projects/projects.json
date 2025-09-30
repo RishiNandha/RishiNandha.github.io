@@ -54,6 +54,23 @@
         ],
         "year": 2024,
         "type":"research"
+    },
+    {
+        "title": "Open Source - Quantum Datasets for Fast-Forwarding",
+        "imageSrc":"/projects/vff.png",
+        "description": "We collaborated with the IBM Qiskit Team (From both IBM Research and STFC UK) on adding natively quantum datasets to the Qiskit environment. Variational Fast-Forwarding is a pipeline introduced in 2020 to simulate atomic systems beyond coherence time on NISQ hardware. I moved the recent literature on this into code and contributed a dataset as a result (Image adopted from Filip et al.)",
+        "links": [
+            {
+                "link": "https://github.com/qiskit-community/qiskit-machine-learning/pull/916#issue-3057905689",
+                "annotation": "Link to PR"
+            },
+            {
+                "link": "https://research.ibm.com/people/dhinakaran-vinayagamurthy",
+                "annotation": "Advisor: Dr. Dhinakaran (IBM)"
+            }
+        ],
+        "year": 2025,
+        "type": "other"
     }
 ]
 
