@@ -54,6 +54,8 @@ margin-bottom: 2rem;
 .about-right {
   flex: 1;
   max-width: 400px;
+  justify-content: center;
+  align-items: center;
 }
 
 .profile-image {

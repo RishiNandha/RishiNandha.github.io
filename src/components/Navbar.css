@@ -14,7 +14,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1400px; 
+  max-width: 1600px; 
 }
 
 
@@ -45,6 +45,11 @@
 /* Mobile responsiveness */
 @media (max-width: 768px) {
   .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .navbar-content {
     flex-direction: column;
     align-items: flex-start;
     justify-content: center;
