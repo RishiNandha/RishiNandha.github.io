@@ -1,0 +1,1 @@
+This repository contains my personal website. The source code is free to use and adapt, I have made this template mostly with LLM-assisted coding and a bit of Typescript that I knew from my internship at Microsoft. Webpage active at [RishiNandha.github.io](RishiNandha.github.io)
