@@ -1,5 +1,5 @@
 // import React from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation, Navigate } from 'react-router-dom';
 
 import "./App.css";
 
@@ -22,6 +22,8 @@ const MainLayout = () => {
           <Route path="/projects" element={<Projects />} />
           <Route path="/music" element={<Music />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/cv" element={<CV />} />
+          <Route path="/CV" element={<CV />} />
           <Route path="*" element={<FourOFour />} />
         </Routes>
       </main>
@@ -33,11 +35,8 @@ function App() {
   return (
     <Router basename="/">
       <Routes>
-        <Route path="/CV" element ={
-          <CV />
-        }
-        />
-        <Route path="/cv" element={<CV />}/>
+  <Route path="/CV" element={<CV />} />
+  <Route path="/cv" element={<CV />} />
         <Route path="*" element={<MainLayout />}/>
       </Routes>
     </Router>
