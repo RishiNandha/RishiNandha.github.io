@@ -24,6 +24,7 @@ const MainLayout = () => {
           <Route path="/blog" element={<Blog />} />
           <Route path="/cv" element={<CV />} />
           <Route path="/CV" element={<CV />} />
+          <Route path = "/research" element={<Projects />}/>
           <Route path="*" element={<FourOFour />} />
         </Routes>
       </main>
