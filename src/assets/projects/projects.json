@@ -37,7 +37,7 @@
     {
         "title": "Neural Networks with Sigmoid Weights for RRAM Crossbars",
         "imageSrc": "/projects/bnn.png",
-        "description": "As part of courework, we were tasked to train a 2-layer neural network, quantize the weights to 1-bit post-training and inference them on a passive RRAM Synaptic Array. We explored this further and tried formulated training methods for using sigmoid weights to mirror the binary nature instead of quantizing post-training. We compared our results with the same dataset that was used by Li et al in their Nature Communications 2018 paper.",
+        "description": "As part of courework, we were tasked with training a 2-layer neural network, quantizing the weights to 1-bit post-training and inferencing them on a passive RRAM Synaptic Array. We explored this further and tried formulating training methods for using sigmoid weights directly to reflect the binary nature instead of quantizing post-training. Although limited by diminishing gradients for deeper networks, we found that reduced quantization induced error significantly. We further explored stochastic training methods such simultaneous perturbation (SPSA) and annealing (SA). We've compared our results on the same dataset as used by Li et al in 2018 paper in the write-up below",
         "links": [
             {
                 "link": "https://github.com/RishiNandha/CMOS-Binary-Neural-Network/blob/47cf71b09709e14cf668042fba5bd74f387e40de/Documentation.pdf",
