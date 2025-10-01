@@ -1,6 +1,6 @@
 // src/components/Imusic.tsx
 import "./Imusic.css";
-import React, { useEffect, useRef, type JSX } from "react";
+import { useEffect, useRef, type JSX } from "react";
 
 export type MusicProps = {
   title: string;
