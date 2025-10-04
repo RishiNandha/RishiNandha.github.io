@@ -38,8 +38,8 @@
     {
         "title": "Neural Networks with Sigmoid Weights for RRAM Crossbars",
         "imageSrc": "/projects/bnn.png",
-        "description1": "As part of our coursework, we were tasked with training a 2-layer neural network, quantizing the weights to 1-bit post-training and inferencing them on a passive RRAM Synaptic Array. We explored beyond the course requirements and formulated a model that uses sigmoid weights directly to reflect the binary nature instead of quantizing post-training. Although limited by diminishing gradients for deeper networks, we found a significant reduction in quantization induced errors in relatively smaller networks. We further explored stochastic training methods such simultaneous perturbation (SPSA) and annealing (SA) as alternatives for gradients. We've compared our results on the same dataset as used by Li et al in 2018 paper in the write-up below",
-        "description2": "",
+        "description1": "As part of our coursework, we were tasked with training a 2-layer neural network, quantizing the weights to 1-bit post-training and inferencing them on a passive RRAM Synaptic Array. We explored beyond the course requirements and formulated a model that uses sigmoid weights directly to reflect the binary nature instead of quantizing post-training",
+        "description2": "Although limited by diminishing gradients for deeper networks, we found a significant reduction in quantization induced errors in relatively smaller networks. We further explored stochastic training methods such simultaneous perturbation (SPSA) and annealing (SA) as alternatives for gradients. We've compared our results on the same dataset as used by Li et al in 2018 paper in the write-up below",
         "links": [
             {
                 "link": "https://github.com/RishiNandha/CMOS-Binary-Neural-Network/blob/47cf71b09709e14cf668042fba5bd74f387e40de/Documentation.pdf",
@@ -79,7 +79,7 @@
         "title": "Projects at Sahaay - Social Innovation Club of IIT Madras",
         "imageSrc": "/projects/sahaay.png",
         "description1": "In 2023, I served as the executive head of the Social Innovation Club of IIT Madras. The club's primary focus is to build engineering solutions for socially relevant problems. During my tenure, I led a team of about 100 members and we worked on 6 projects related to assistive technology, agricultural technology and animal welfare solutions.",
-        "description2": "I guided two teams working on leveraging deep learning algorithms for assisting visually-impaired and auditorily-impaired individuals with independent mobility. During these projects, I got to observe the necessity of efficient edge-inference. We observed that with the current paradigm of using GPUs for inferencing, delivering assistive solutions is limited by the power budgets. This reinforced my interest in exploring emerging paradigms such as In-Memory Computing.",
+        "description2": "I guided two teams working on using deep learning models on wearables for assisting visually-impaired and auditorily-impaired individuals with independent mobility. During these projects, I got to see the real necessity of efficient edge-inference because with the current paradigm of using GPUs for inferencing, we were limited by the power budgets expendable. This reinforced my interest in exploring emerging paradigms such as In-Memory Computing.",
         "links": [
             {
                 "link": "https://www.linkedin.com/company/sahaay-iitmadras/",
