@@ -20,7 +20,7 @@ const About = () => {
         {/* { fss} */}
         <p>My research interests are analog in-memory and neuromorphic architectures. You can find some of my selected projects <Link to="/projects">here</Link>.</p>
         {/* <p>\n</p> */}
-        <p>I'm also play the guitar at a semi-professional capacity. I have written some originals with my friends, some of which can be found <Link to="/music">here</Link>.</p>
+        <p>I also play the guitar and compose. Some originals I have written with my friends can be found <Link to="/music">here</Link>.</p>
       </div>
       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
       <div className="about-right">
