@@ -8,7 +8,8 @@ export type LinkObj = {
 export type ProjProps = {
   title: string;
   imageSrc: string;
-  description: string;
+  description1: string;
+  description2: string;
   links: LinkObj[];
   year: number;
   type: "research" | "other"
@@ -33,7 +34,10 @@ export function Iproject(props: ProjProps) {
       </div>
 
       <div className="project-right">
-            <p className="project-description">{props.description}</p>
+              <p className="project-description">&emsp;{props.description1}</p>
+              {props.description2 && (
+                <p className="project-description">&emsp;{props.description2}</p>)
+              }
             <div className="project-links">
             {props.links.map((item, index) => (
                 <a

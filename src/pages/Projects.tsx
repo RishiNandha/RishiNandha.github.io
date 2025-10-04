@@ -37,6 +37,7 @@ const Projects = () => {
       {otherCards.length > 0 && (
         <div className="outer">
           <h1>Other Projects</h1>
+          <div className="reducemargin"><p>These are some other projects that have given me some inter-disciplinary exposure. While not directly related with my primary research areas, these have broadened my perspective on the emerging paradigms of computing</p></div>
           {otherCards}
         </div>
       )}
