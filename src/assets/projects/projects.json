@@ -2,7 +2,7 @@
     {
         "title": "Wideband Full Duplex Transceiver",
         "imageSrc": "/projects/FD.png",
-        "description1": "I am taping out a complete transceiver that aims to demonstrate the capability of simultaneously transmitting and receiving in the same frequency through the same antenna (aka Same-Channel Full-Duplex) with a capacitance bridge. In 2018, Dr. Abhishek Kumar demonstrated this in 2.4 GHz over a 20 MHz bandwidth, I am extending this to show the same at 7 GHz with a 400 MHz bandwidth",
+        "description1": "I am taping out a complete transceiver that aims to demonstrate the capability of simultaneously transmitting and receiving in the same frequency through the same antenna (aka Same-Channel Full-Duplex) with a capacitance bridge. In 2018, Dr. Abhishek Kumar demonstrated this in 2.4 GHz over a 20 MHz RF bandwidth, I am extending this to show the same at 7 GHz with a 600 MHz bandwidth",
         "description2": "",
         "links":[
             {
