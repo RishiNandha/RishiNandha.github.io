@@ -20,7 +20,7 @@
     {
         "title": "High-Fidelity Clocks for 6G Terahertz System",
         "imageSrc": "/projects/imc.jpeg",
-        "description1": "I worked at the 5G Testbed (Now called 6G TeraHertz Testbed) during my Undergraduate Studies. Our TeraHertz system that establishes a point-to-point wireless link at 270 GHz was displayed at the Indian Mobile Congress 2024. I designed the Clock Rack (Seen at left bottom of the image) to provide referece clocks upto 100s of MHz for synchronizing our baseband units (BBUs) to GPS",
+        "description1": "I worked at the 5G Testbed (Now called 6G TeraHertz Testbed) during my Undergraduate Studies. Our TeraHertz system that establishes a point-to-point wireless link at 270 GHz was displayed at the Indian Mobile Congress 2024. I designed the Clock Rack (Seen at left bottom of the image) to provide low-jitter reference clocks upto 100s of MHz for synchronizing our baseband units (BBUs) to GPS",
         "description2": "",
         "links": [
             { 
