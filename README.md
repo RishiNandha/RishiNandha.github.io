@@ -1,1 +1,13 @@
-This repository contains my personal website. The source code is free to use and adapt (Consider leaving a link in your README leading to this repo if you do!), I have made this template mostly with LLM-assisted coding and a bit of Typescript that I knew from my internship at Microsoft. Webpage active at [RishiNandha.github.io](https://rishinandha.github.io/)
+This repository contains my personal website. The source code is free to use and adapt but please consider leaving a link to this original repository in your README!
+
+I have made this template mostly from scratch. If you like it, feel free to host yours with this! My webpage active at [RishiNandha.github.io](https://rishinandha.github.io/)
+
+## Change Log
+- Mar '26: Added Prerendering and Client-side hydration.
+- Nov '25: First Commit. SPA page with a navigation bar.
+
+## License
+
+This project is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
+You are free to use, modify, and distribute this code for personal or commercial purposes, provided that proper credit is given.
+© 2026 Rishi Nandha Vanchinathan
