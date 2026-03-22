@@ -1,5 +1,5 @@
 // import React from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useLocation} from 'react-router';
 
 import "./App.css";
 
@@ -34,13 +34,11 @@ const MainLayout = () => {
 
 function App() {
   return (
-    <Router basename="/">
+    // <Router basename="/">
       <Routes>
-  {/* <Route path="/CV" element={<CV />} /> */}
-  {/* <Route path="/cv" element={<CV />} /> */}
         <Route path="*" element={<MainLayout />}/>
       </Routes>
-    </Router>
+    // </Router>
   )
 }
 

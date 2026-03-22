@@ -13,14 +13,14 @@ const About = () => {
         <div className="social-links">
           <a href="https://www.linkedin.com/in/rishinandhav/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
           <a href="https://github.com/RishiNandha" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-          <a href="mailto:rishinandha.vanchi@gmail.com"><FaEnvelope /></a>
+          <a href="mailto:rishinandha[dot]vanchi[at]gmail[dot]com"><FaEnvelope /></a>
           {/* <a href="https://www.youtube.com/@rishinandha_vanchi" target="_blank" rel="noopener noreferrer"><FaYoutube /></a> */}
         </div>
         <p>I'm a final year student at IIT Madras (Integrated B.Tech + M.Tech) with experience in RF IC Design.</p>
         {/* { fss} */}
         <p>My research interests are analog in-memory and neuromorphic architectures. You can find some of my selected projects <Link to="/projects">here</Link>.</p>
         {/* <p>\n</p> */}
-        <p>I also play the guitar and compose. Some originals I have written with my friends can be found <Link to="/music">here</Link>.</p>
+        <p>I also play the guitar and write music. Some originals I have written with my friends can be found <Link to="/music">here</Link>.</p>
       </div>
       <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
       <div className="about-right">

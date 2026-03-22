@@ -50,10 +50,20 @@ jobs:
       - name: Build project
         run: ${{ steps.detect-package-manager.outputs.manager }} run build
 
+      - name: Verify prerendered files
+        run: |
+          echo "Checking prerendered files..."
+          [ -f ./dist/client/index.html ] && echo "Found Root index.html" || exit 1
+          [ -f ./dist/client/blog/index.html ] && echo "Found Blog page" || exit 1
+          [ -f ./dist/client/research/index.html ] && echo "Found Research page" || exit 1
+          [ -f ./dist/client/music/index.html ] && echo "Found Music page" || exit 1
+          [ -f ./dist/client/cv/index.html ] && echo "Found CV page" || exit 1
+          echo "All prerendered files found!"
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist   # Vite outputs here by default
+          path: ./dist/client
 
   deploy:
     environment:

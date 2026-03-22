@@ -1,6 +1,8 @@
 import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+// import { createRoot } from 'react-dom/client'
+import {hydrateRoot} from 'react-dom/client'
 import App from './App.tsx'
+import { BrowserRouter } from 'react-router'
 
 // Check if GitHub Pages redirect param exists
 const urlParams = new URLSearchParams(window.location.search)
@@ -11,8 +13,10 @@ if (redirectPath) {
   window.history.replaceState(null, "", redirectPath)
 }
 
-createRoot(document.getElementById('root')!).render(
+hydrateRoot(document.getElementById('root')!,
   <StrictMode>
-    <App />
+    <BrowserRouter basename="/">
+      <App />
+    </BrowserRouter>
   </StrictMode>,
 )
