@@ -21,7 +21,7 @@ if (fs.existsSync(blogDir)) {
 }
 
 // Generate sitemap
-const baseUrl = 'https://RishiNandha.github.io'
+const baseUrl = 'https://rishinandha.github.io'
 const today = new Date().toISOString().split('T')[0]
 
 let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
@@ -62,12 +62,6 @@ sitemap += `
     <lastmod>${today}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>${baseUrl}/CV.pdf</loc>
-    <lastmod>${today}</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.75</priority>
   </url>
 </urlset>`
 
