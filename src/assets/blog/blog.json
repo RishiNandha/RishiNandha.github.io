@@ -2,21 +2,11 @@
   {
     "url_filename": "student-leader-pt1",
     "title": "Being a Student Leader - Part 1: Team Accountability [For Student-Run Clubs]",
-    "publish": 1,
+    "publish": 0,
     "thumbnail": "Studentrun.png",
     "tags": ["team-operations"],
     "date": "26/03/2026",
     "description": "In hope that another student who's considering stepping up for leading a club might find this useful, I share here all the things I found useful during my time as a head in our student-run technical club",
-    "related": []
-  },
-  {
-    "url_filename": "for-jee-aspirants",
-    "title": "For JEE Aspirants: Things that worked for me",
-    "publish": 1,
-    "thumbnail": "jee.png",
-    "tags": ["jee"],
-    "date": "15/06/2024",
-    "description": "Some things that worked for me during my preparations. Even if you are not preparing for JEE, I hope this helps in some ways in preparations towards other stuff too!",
     "related": []
   }
 ]

@@ -6,14 +6,64 @@
     justify-content: center;
     display:flex;
     flex-direction: column;
-    gap: 2rem;
-    padding: 2 2rem;
-    margin-bottom: -2rem;
+    gap: 1.5rem;
+    padding: 1rem 2rem;
+    margin-bottom: 0rem;
 }
 
-.filter {
+.filters {
     display: flex;
-    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    border-radius: 0.5rem;
+    /* background: #313131; */
+    border-top-color: #ffffff;
+    border-top-width: 0.1rem;
+    border-top-style: solid;
+    border-bottom-color: #ffffff;
+    border-bottom-width: 0.1rem;
+    border-bottom-style: solid;
+}
+
+.filters__row {
+    padding: 1rem 1rem;
+    font-size: 1.15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.filters__select {
+    font-weight: 500;
+    color: #000000;
+    background: #f1f1f1;
+    border-radius: 0.3rem;
+    padding: 0.25rem 0.6rem;
+    font-size: 0.9rem;
+    
+}
+.tags{
+    padding-inline: 2rem;
+    align-items: center;
+    justify-content: center;
+}
+.tag-pill{
+    font-weight: 500;
+    padding: 0.25rem 0.4rem;
+    border-radius: 0.3rem;
+    font-size: 0.95rem;
+    background: #c9c9c9;
+}
+.tag-pill--active{
+    background: #fff6d5;
+    color: #000000;
+}
+
+.blog-page__grid {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
     justify-content: center;
     align-items: center;
 }
@@ -25,7 +75,7 @@
   border-radius: 1rem;
   overflow: hidden;
   text-decoration: none;
-  background: #212121;
+  background: #1b1b1b;
   transition: box-shadow 0.2s, transform 0.2s;
 }
  
@@ -124,7 +174,6 @@
         width: 100%;
         max-width: 100vw;
         text-align: center;
-        padding: 2rem 2rem;
     }
     .blog-card__title {
         font-size: 1rem;
@@ -149,5 +198,17 @@
     }
     .blog-card__thumbnail {
         width: 8rem;
+    }
+    .blog-page__grid {
+        gap: 0.8rem;
+    }
+    .tag-pill{
+        font-size: 0.8rem;
+    }
+    .filters__select {
+        font-size: 0.8rem;
+    }
+    .filters__row {
+        font-size: 1.05rem;
     }
 }
