@@ -10,6 +10,7 @@ import Blog from './pages/Blog';
 import FourOFour from './pages/FourOFour';
 import NavBar from './components/NavBar';
 import CV from './pages/CV';
+import Activism from './pages/Activism.tsx';
 
 const MainLayout = () => {
   const location = useLocation();
@@ -26,6 +27,7 @@ const MainLayout = () => {
           <Route path="/CV" element={<CV />} />
           <Route path = "/research" element={<Projects />}/>
           <Route path="*" element={<FourOFour />} />
+          <Route path="/activism" element={<Activism />} />
         </Routes>
       </main>
     </div>
