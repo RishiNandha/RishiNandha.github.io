@@ -38,6 +38,8 @@ This is a cliche one, but worth mentioning. Making the time your peers spend wor
 
 But also more importantly, there is a psychological gravity that humans have when they work with confident (or even slightly overconfident) and knowledgeable people. Even if you don't feel very confident naturally (all of us have our own share of it!), you can always boost it by preparing beforehand. Whenever your team learns 3 things from you, that's when they'll accept you as their leader. **It's worth mentioning that these "learnings" need not necessarily just be technical, it can also be things like speech writing, body language, etc.**
 
+Being professional matters the same amount too. In our club, we had a thumb-rule that we cannot impose any deadline, meeting or "urgent work" on anyone else if we are announcing it within 24 hours before time. For example, if someone has to schedule a meeting in the next 3 hours, then that would be considered an artefact of misplanning, and others won't be obliged to show up with that short a notice. (Ofcourse voluntarily working together on short notices were still encouraged)
+
 ## 2. How Do I Push My Junior Team Towards Our Goals?
 
 The biggest difference between a student club and a company is monetary incentive. Well ofcourse, you have to tune the recruitment process with pre-decided interview questions, response sheets, etc to recruit only the folks who are truly passionate in your club's line of work. But no pipeline is perfect. So at the end of the day, you have to figure out how to motivate your team.
