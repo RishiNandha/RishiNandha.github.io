@@ -461,9 +461,9 @@
 
 .author-box__bio {
   font-family: var(--blog-font-ui);
-  font-size: 0.85rem;
+  font-size: 0.9rem;
   line-height: 1.6;
-  color: var(--blog-muted);
+  color: #afada7;
   margin: 0.35rem 0 0.5rem;
 }
 
