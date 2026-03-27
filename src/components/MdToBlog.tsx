@@ -10,6 +10,7 @@ import { FaLinkedin, FaYoutube, FaGithub } from "react-icons/fa";
 import blogData from "../assets/blog/blog.json";
 import "./MdToBlog.css";
 import { slug } from "github-slugger";
+import headshotJpg from '../assets/headshot.jpg';
 
 // Updated to match new blog.json shape — also update BlogProps in Iblog.tsx
 type BlogProps = {
@@ -122,7 +123,7 @@ function AuthorBox() {
   return (
     <div className="author-box">
       <div className="author-box__avatar-wrap">
-        <img src="/src/assets/headshot.jpg" alt="Rishi Nandha V" className="author-box__avatar" />
+        <img src={headshotJpg} alt="Rishi Nandha V" className="author-box__avatar" />
       </div>
       <div className="author-box__content">
         <p className="author-box__written">Written by</p>
