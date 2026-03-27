@@ -1,8 +1,8 @@
 # Introduction
 
-I served as the executive head of the [Social Innovation Club of IIT Madras](https://www.linkedin.com/company/sahaay-iitmadras/) during my undergraduate studies. During this time I got to see what makes makes or breaks the rise (and fall) of student clubs (and arguably, early stage startups). I am writing this "Leading a Student-Run Club" series of articles to share what I have learnt through these. (This won't be another linkedin slop, I promise!)
+I served as the executive head of the [Social Innovation Club of IIT Madras](https://www.linkedin.com/company/sahaay-iitmadras/) during my undergraduate studies. During this time I got to see what makes or breaks the rise (and fall) of student clubs (and arguably, early stage startups). I am writing this "Leading a Student-Run Club" series of articles to share what I have learnt through these. (This won't be another Linkedin slop, I promise!)
 
-The best part about being a student leader in such a club is it requires you to wear multiple hats. We cannot cover everything in one blog post, hence I'll first cover content about gaining the team's faith and enabling consistent progress in this article. I'll write more about strategy, publicity and business relations in the subsequent ones. (I'll try my best to skip all the generic advices that are already too overpreached for what they're worth ;)
+The best part about being a student leader in such a club is it requires you to wear multiple hats. We cannot cover everything in one blog post, hence I'll first cover content about gaining the team's faith and enabling consistent progress in this article. I'll write more about strategy, publicity and business relations in the subsequent ones. (I'll try my best to skip all the generic advice that are already too overpreached for what they're worth ;)
 
 # Part - I: Team Accountability
 
@@ -16,29 +16,29 @@ The most difficult part of being a student leader is not keeping your junior tea
 
 ### 1.1. Being Reliable
 
-One of the things you should practice is being reliable as a friend and a human-being first. Might sound like a cliche tip, but consider this scenario: You are fighting with your life to get an internship for the coming summer, and this so-called "head" in an organization (that doesn't even pay you) wants you to make a poster for an event urgently. Do you even care?
+One of the things you should practice is being reliable as a friend and a human-being first. Might sound like a cliché tip, but consider this scenario: You are fighting with your life to get an internship for the coming summer, and this so-called "head" in an organization (that doesn't even pay you) wants you to make a poster for an event urgently. Do you even care?
 
 > Being reliable as a friend and a human-being first
 
-There's no shame in saying "No". Infact, almost everyone leading student clubs will come across such a scenario, including myself. This is where you establish your reliability as a person. I cannot question anyone's priorities. But I can let them know that I respect their priorities, and that I will makeup for them for as long as I can, in hope that they come back to it. The most natural tendency of humans is to return favours. Consider this message below:
+There's no shame in saying "No". In fact, almost everyone leading student clubs will come across such a scenario, including myself. This is where you establish your reliability as a person. I cannot question anyone's priorities. But I can let them know that I respect their priorities, and that I will make up for them for as long as I can, in the hope that they come back to it. The most natural tendency of humans is to return favours. Consider this message below:
 
-    Hey, I hope me mentioning this is okay and not intrusive or anything. I just wanted to let you know that I am aware that you aren't able to be very active in the club because you're trying to get an internship currently. I'll try my best to makeup for it by taking your share of work here for as long as I can.
+    Hey, I hope me mentioning this is okay and not intrusive or anything. I just wanted to let you know that I am aware that you aren't able to be very active in the club because you're trying to get an internship currently. I'll try my best to make up for it by taking your share of work here for as long as I can.
 
     Please do let me know once you have it sorted though. It'll be great to have you active again in the team and to see you take creative control here.
 
     Also feel free to let me know connecting with anyone in my network might help you in your job search. I would be glad to do whatever I can
 
-This is one example you could possibly write. Your peers most likely won't ask you for any help in this directly per se, but **mentioning that they can contact you for any help even outside the club is a gesture**. It tells them that more than just the club, you also are reliable as a human. Now fastforward to several months ahead, I had to take a hiatus for reasons I could not disclose, but my peers did not bother asking me to explain why, they just made up for me like nothing ever happened.
+This is one example you could possibly write. Your peers most likely won't ask you for any help in this directly per se, but **mentioning that they can contact you for any help even outside the club is a gesture**. It tells them that more than just the club, you also are reliable as a human. Now fast-forward to several months ahead, I had to take a hiatus for reasons I could not disclose, but my peers did not bother asking me to explain why, they just made up for me like nothing ever happened.
 
-### 1.2. Show-Up Prepared
+### 1.2. Show Up Prepared
 
-This is a cliche one, but worth mentioning. Making the time your peers spend working with you feel productive is one way to respect their time. Showing up prepared is the only way to consistently do that. Other cliche ways to say this would be "lead-by-example" haha!
+This is a cliché one, but worth mentioning. Making the time your peers spend working with you feel productive is one way to respect their time. Showing up prepared is the only way to consistently do that. Other cliché ways to say this would be "lead-by-example" haha!
 
 > Whenever your team learns 3 new things from you, that's when they'll accept you as their leader
 
 But also more importantly, there is a psychological gravity that humans have when they work with confident (or even slightly overconfident) and knowledgeable people. Even if you don't feel very confident naturally (all of us have our own share of it!), you can always boost it by preparing beforehand. Whenever your team learns 3 things from you, that's when they'll accept you as their leader. **It's worth mentioning that these "learnings" need not necessarily just be technical, it can also be things like speech writing, body language, etc.**
 
-Being professional matters the same amount too. In our club, we had a thumb-rule that we cannot impose any deadline, meeting or "urgent work" on anyone else if we are announcing it within 24 hours before time. For example, if someone has to schedule a meeting in the next 3 hours, then that would be considered an artefact of misplanning, and others won't be obliged to show up with that short a notice. (Ofcourse voluntarily working together on short notices were still encouraged)
+Being professional matters the same amount too. In our club, we had a thumb-rule that we cannot impose any deadline, meeting or "urgent work" on anyone else if we are announcing it within 24 hours before time. For example, if someone has to schedule a meeting in the next 3 hours, then that would be considered an artefact of misplanning, and others won't be obliged to show up with that short a notice. (Ofcourse voluntarily working together on short notice was still encouraged)
 
 ## 2. How Do I Push My Junior Team Towards Our Goals?
 
@@ -52,7 +52,7 @@ This is not to be confused with the "externalization" that B-schools and supply 
 
     B: "Hey guys, on the 15th of this month, we have invited our alums and other professors who will help us with a round of reviews of our projects in an all-team  meet. Please plan ahead and put on a good show!"
 
-Announcement A's is most probably going to have your junior team thinking "Okay it's just an internal review. I can get away with the bare minimum, or I can even postpone it easily in the worst case". While **announcement B makes it non-negotiable**. More importantly, it seems like it's not even within the control of the club, and they have to put together a good pitch or a demo.
+Announcement A is most probably going to have your junior team thinking "Okay it's just an internal review. I can get away with the bare minimum, or I can even postpone it easily in the worst case". While **announcement B makes it non-negotiable**. More importantly, it seems like it's not even within the control of the club, and they have to put together a good pitch or a demo.
 
 > Make anything that needs to be imposed (such as deadlines) seem external.
 
@@ -65,17 +65,17 @@ In other words, make deadlines seem external. Make specifications/requirements f
 
 ### 2.2. Minimum Viable Product
 
-Now that we've already mentioned this in the previous part - This is something I learnt during my Internship at Microsoft. My main goal was to related to demonstrating a graph traversal idea. I was stuck with trying to make C# hit Azure Devops APIs. My manager told me to first hack my way out of it by just running a "git pull" process in the background, so that I can demonstrate my graph traversal idea as early as possible. He told that producing a "Minimum Viable Product" early is more important than addressing the small details that won't really change the demo visibly.
+Now that we've already mentioned this in the previous part - This is something I learnt during my Internship at Microsoft. My main goal was to related to demonstrating a graph traversal idea. I was stuck with trying to make C# hit Azure DevOps APIs. My manager told me to first hack my way out of it by just running a "git pull" process in the background, so that I can demonstrate my graph traversal idea as early as possible. He said that producing a "Minimum Viable Product" early is more important than addressing the small details that won't really change the demo visibly.
 
 > Tell your team to produce the minimum viable product that demonstrates your idea, and zoom past the details that won't visibly change the demo.
 
-This is a powerful idea because it allows your team to "fail fast" and get early feedback from the user segment that might adopt your work early. This idea combined with the idea of externalizing is a strong motivator the get your team into the phase of actually building instead of wasting time theorizing. Unfortunately, **too many technical clubs just get stuck with just .PPTX files** that have fancy flowcharts instead of actual demonstrations.
+This is a powerful idea because it allows your team to "fail fast" and get early feedback from the user segment that might adopt your work early. This idea combined with the idea of externalizing is a strong motivator to get your team into the phrase of actually building instead of wasting time theorizing. Unfortunately, **too many technical clubs just get stuck with just .PPTX files** that have fancy flowcharts instead of actual demonstrations.
 
 I did not know this when I was the club head, but I do have an anecdote from one of my successors: we had discussed that they will tell their team, "our seniors are asking for real demos like videos working hardware or videos showing a "run all" on jupyter notebooks by first of the month". This helped them externalize the deadline and also make the team skip the pitch decks and jump into hacking together quick solutions.
 
 ### 2.3. Avoiding Redundant Responsibilities and Vague Action Items
 
-One more age-old idea worth mentioning: there is a fine balance between having backups and having redundancies. As a small organization, you need to have atleast two people who know about one thing, so that probability of both of them being unavailable at one point in time is low. But having two people who are responsible for one thing will make it hard for you to follow upon the tasks.
+One more age-old idea worth mentioning: there is a fine balance between having backups and having redundancies. As a small organization, you need to have atleast two people who know about one thing, so that probability of both of them being unavailable at one point in time is low. But having two people who are responsible for one thing will make it hard for you to follow up on the tasks.
 
 > Two people knowing about one thing != Two people responsible for one thing
 
@@ -83,7 +83,7 @@ Moreover, avoid ill-defined / vague goals. For anyone who doesn't yet have the m
 
 ## 3. When Things Go South...
 
-Nothing happens are per the textbook. "Theory can only take you so far". In such cases, as a student leader, your rolw is to offer psychological safety to your team first, before getting to the facts and figures. Let's go one case at a time:
+Nothing happens as per the textbook. "Theory can only take you so far". In such cases, as a student leader, your role is to offer psychological safety to your team first, before getting to the facts and figures. Let's go one case at a time:
 
 ### 3.1. Apologize, not with a Justification, but with a Course of Action
 
@@ -101,8 +101,8 @@ Unfortunately, far too many people who are heading some club end up either ridin
 
 Now let's dissect this:
 
-1. Note that I am saying that I **take full responsibility** for what happened. Reality is, it is not entirely on me. Firstly, the team really did take longer to finish the first milestone than what we planned. And moreover, it is unprofessional on the collaborator's side to cut us off with no follow-ups / nudges. But sometimes, you have to bite the bullet and take it upon you, and be the bigger person - for the better. I helps to say "I'm the most well-informed animal in this particular exchange, and I could just take it upon myself and make it quick to move past"
-2. **I am not justifying my actions.** But I am trying to transparent with what exactly happened. Justifying will undo my apology, while transparency reinitiates the team's faith.
+1. Note that I am saying that I **take full responsibility** for what happened. Reality is, it is not entirely on me. Firstly, the team really did take longer to finish the first milestone than what we planned. And moreover, it is unprofessional on the collaborator's side to cut us off with no follow-ups / nudges. But sometimes, you have to bite the bullet and take it upon you, and be the bigger person - for the better. It helps to say "I'm the most well-informed animal in this particular exchange, and I could just take it upon myself and make it quick to move past"
+2. **I am not justifying my actions.** But I am trying to be transparent with what exactly happened. Justifying will undo my apology, while transparency reinitiates the team's faith.
 3. **I am giving them a course of action**, a reason to believe that they can still put their faith on me. Why should they believe I will fix this? Because I jumped right into "what-next" and have already devised a plan for it.
 
 > Supplement your apologies with a course of action to recover from / not repeat the mistake
@@ -111,19 +111,19 @@ This is not only for apologizing to your junior team, but also to any other part
 
 ### 3.2. Credit in Public, Confront in Private
 
-I have seen way too many **teams crumble because their team lead just yells at someone in a group meeting**. I can't stress upon this enough. I've had friends who were immensely passionate about the team when they joined but left the same team with a gruelsome story of how that team is toxic that propagates faster than anything else.
+I have seen way too many **teams crumble because their team lead just yells at someone in a group meeting**. I can't stress upon this enough. I've had friends who were immensely passionate about the team when they joined but left the same team with a gruesome story of how that team is toxic that propagates faster than anything else.
 
 > Teams crumble when their team lead decides to yell at someone in a group setting
 
-It's important to understand the psychology of people (and we will come back to this same idea again when talk about publicity in part 2 of the series): **Everyone wants to be the protagonist of their own story**. Hence, noone is going to tolerate it if a leader is actually a threat to their own self-respect and dignity.
+It's important to understand the psychology of people (and we will come back to this same idea again when we talk about publicity in part 2 of the series): **Everyone wants to be the protagonist of their own story**. Hence, noone is going to tolerate it if a leader is actually a threat to their own self-respect and dignity.
 
-So how exactly will you confront someone who has contributed nothing to the club? You don't know what is going on in their life. Give them the benefit of the doubt once or twice. Ask in text or mail if they have any particular reason they aren't active. Grant a break if they want one. Only if they repeatedly break their promises they made do you step into action. And action must still be human, and the rest of the team also deserves an explanation of what exactly happened, if this happens. Avoid writing satirical emails when doing this (Yes, some clubs actually do this, and it damages their reputation more than they think).
+So how exactly will you confront someone who has contributed nothing to the club? You don't know what is going on in their life. Give them the benefit of the doubt once or twice. Ask in text or mail if they have any particular reason they aren't active. Grant a break if they want one. Only if they repeatedly break their promises they made do you step into action. And action must still be human, and the rest of the team also deserves an explanation of what exactly happened, if this happens. Avoid writing satirical emails when doing this, (Yes, some clubs actually do this, and it damages their reputation more than they think).
 
 Giving **credit and announcing acknowledgements in organization-level meetings** goes a long way. Again, everyone wants to feel like a hero/heroine in their own story. Particularly so if this is a meeting with other seniors / alumni / professors. This builds a great culture. They say "you can tell if a workplace is toxic by just seeing if you get a 'good morning' from the security guard in the morning". This is simply because he/she would've cultivated this habit only because other employees had been kind enough to wish them.
 
 ## 4. Misc: Cr*p Sandwich, Timing your Feedbacks, Nurturing the Sincere Ones
 
-How feedback is given matters, and how it's timed matters. Follow the cr*p sandwich shown below. Time your feedback, calling out a mistake in the presentation 5 minutes after it ends is demoralizing. Bringing it up in the project meeting 3 days layer is constructive.
+How feedback is given matters, and how it's timed matters. Follow the cr*p sandwich shown below. Time your feedback, calling out a mistake in the presentation 5 minutes after it ends is demoralizing. Bringing it up in the project meeting 3 days later is constructive.
 
 <p style="text-align: center; justify-self: center;">
   <img 
@@ -133,8 +133,8 @@ How feedback is given matters, and how it's timed matters. Follow the cr*p sandw
   />
 </p>
 
-Moreover, there will always be this subset of folks who are being very sincere and proactive. It is your duty to identify these torchbearers. And more importantly, make sure they are getting an unfair share of responsibilities and getting overworked. It is your responsibility to treat them like your mentees and do you job of delegating work right!
+Moreover, there will always be this subset of folks who are being very sincere and proactive. It is your duty to identify these torchbearers. And more importantly, make sure they are getting an unfair share of responsibilities and getting overworked. It is your responsibility to treat them like your mentees and do your job of delegating work right!
 
 ## Final Note - Credit Where it's Due
 
-I wouldn't have been able to learn all of this without the rest of my team being immensely cooperative during my time in the club, and also all my juniors who continued to keep in touch. "Legacy is like planting seeds in a garden you'll never get to see" - Lin Manuel Miranda. I want to be very clear that by writing this article, I am not trying to say I was the best the club ever had. Infact, the upcoming teams only got better and better! It's great to seem them file patents and produce IPs every year. If you found this article useful, do give [Sahaay](https://www.linkedin.com/company/sahaay-iitmadras/) a follow!
+I wouldn't have been able to learn all of this without the rest of my team being immensely cooperative during my time in the club, and also all my juniors who continued to keep in touch. "Legacy is like planting seeds in a garden you'll never get to see" - Lin Manuel Miranda. I want to be very clear that by writing this article, I am not trying to say I was the best the club ever had. In fact, the upcoming teams only got better and better! It's great to see them file patents and more produce IPs every year. If you found this article useful, do give [Sahaay](https://www.linkedin.com/company/sahaay-iitmadras/) a follow!
