@@ -9,7 +9,7 @@ import rehypeKatex from "rehype-katex";
 import { FaLinkedin, FaYoutube, FaGithub } from "react-icons/fa";
 import blogData from "../assets/blog/blog.json";
 import "./MdToBlog.css";
-import { slug } from "github-slugger";
+// import { slug } from "github-slugger";
 import headshotJpg from '../assets/headshot.jpg';
 
 const thumbnails = import.meta.glob(
