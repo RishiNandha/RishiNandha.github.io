@@ -13,13 +13,15 @@ import "./MdToBlog.css";
 // import { slug } from "github-slugger";
 import headshotJpg from '../assets/headshot.jpg';
 
-const thumbnails = import.meta.glob(
-  "/src/assets/blog/thumbnails/*",
-  {
-    eager: true,
-    import: "default",
-  }
-) as Record<string, string>;
+// import { Helmet } from "react-helmet-async";
+
+// const thumbnails = import.meta.glob(
+//   "/src/assets/blog/thumbnails/*",
+//   {
+//     eager: true,
+//     import: "default",
+//   }
+// ) as Record<string, string>;
 
 const validUrls = new Set(blogData.map((b) => b.url));
 
@@ -118,11 +120,14 @@ function TableOfContents({ toc, activeId }: { toc: TocEntry[]; activeId: string 
 
 function RelatedCard({ post }: { post: BlogProps }) {
   // console.log(post);
-    const thumbSrc = thumbnails[`/src/assets/blog/thumbnails/${post.thumbnail}`];
+    // const thumbSrc = thumbnails[`/src/assets/blog/thumbnails/${post.thumbnail}`];
   return (
     <Link to={`/blog/${post.url}`} className="related-card">
       <div className="related-card__thumb">
-        <img src={thumbSrc} alt={post.title} />
+<img
+  src={`${import.meta.env.BASE_URL}blogs/thumbnails/${post.thumbnail}`}
+  alt={post.title}
+/>
       </div>
       <div className="related-card__body">
         <p className="related-card__title">{post.title}</p>

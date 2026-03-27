@@ -11,26 +11,31 @@ export type BlogProps = {
   date: string;
   description: string;
   related: string[];
+  metaDescription?: string;
+  keywords?: string[];
 };
 
-const thumbnails = import.meta.glob(
-  "/src/assets/blog/thumbnails/*",
-  {
-    eager: true,
-    import: "default",
-  }
-) as Record<string, string>;
+// const thumbnails = import.meta.glob(
+//   "/src/assets/blog/thumbnails/*",
+//   {
+//     eager: true,
+//     import: "default",
+//   }
+// ) as Record<string, string>;
 
-console.log(thumbnails);
+// console.log(thumbnails);
 
 export function Iblog(props: BlogProps) {
   const dateISO = new Date(props.date.split("/").reverse().join("-"));
-    const thumbSrc = thumbnails[`/src/assets/blog/thumbnails/${props.thumbnail}`];
+    // const thumbSrc = thumbnails[`/src/assets/blog/thumbnails/${props.thumbnail}`];
   return (
     <div className="blog-card">
 
         <div className="blog-card__thumbnail">
-          <img src={thumbSrc} alt={props.title} />
+<img
+  src={`${import.meta.env.BASE_URL}blogs/thumbnails/${props.thumbnail}`}
+  alt={props.title}
+/>
         </div>
 
         <div className="blog-card__body">
