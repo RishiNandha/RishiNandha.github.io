@@ -12,6 +12,14 @@ import "./MdToBlog.css";
 import { slug } from "github-slugger";
 import headshotJpg from '../assets/headshot.jpg';
 
+const thumbnails = import.meta.glob(
+  "/src/assets/blog/thumbnails/*",
+  {
+    eager: true,
+    import: "default",
+  }
+) as Record<string, string>;
+
 // Updated to match new blog.json shape — also update BlogProps in Iblog.tsx
 type BlogProps = {
   url: string;
@@ -106,10 +114,11 @@ function TableOfContents({ toc, activeId }: { toc: TocEntry[]; activeId: string 
 }
 
 function RelatedCard({ post }: { post: BlogProps }) {
+    const thumbSrc = thumbnails[`/src/assets/blog/thumbnails/${post.thumbnail}`];
   return (
     <Link to={`/blog/${post.url}`} className="related-card">
       <div className="related-card__thumb">
-        <img src={`/blogs/thumbnails/${post.thumbnail}`} alt={post.title} />
+        <img src={thumbSrc} alt={post.title} />
       </div>
       <div className="related-card__body">
         <p className="related-card__title">{post.title}</p>
