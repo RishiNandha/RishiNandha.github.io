@@ -1,4 +1,4 @@
-.outer {
+.blogouter {
     width: 80%;
     max-width: 70rem; 
     min-width: 37rem;
@@ -176,7 +176,7 @@
 
 @media (max-width: 768px) {
 
-    .outer {
+    .blogouter {
         min-width: 1vw;
         width: 100%;
         max-width: 100vw;

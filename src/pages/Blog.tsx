@@ -53,7 +53,7 @@ const Blog = () => {
   }, [selectedTags, filterMode]);
 
   return (
-    <div className="outer">
+    <div className="blogouter">
       <div className="filters">
         <div className="filters__row">
           <div>
