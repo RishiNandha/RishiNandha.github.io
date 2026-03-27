@@ -2,7 +2,8 @@ import "./Iblog.css";
 import { Link } from "react-router-dom";
 
 export type BlogProps = {
-  url_filename: string;
+  url: string;
+  filename: string;
   title: string;
   publish: 0 | 1;
   thumbnail: string;
@@ -26,7 +27,7 @@ export function Iblog(props: BlogProps) {
 
             <div className="blog-card__title-row">
             <Link
-                to={`/blog/${props.url_filename}`}
+                to={`/blog/${props.url}`}
                 className="blog-card__title-link"
                 aria-label={`Read blog post: ${props.title}`}>
                 <h2 className="blog-card__title">{props.title}↗</h2>

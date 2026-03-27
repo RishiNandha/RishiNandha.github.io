@@ -7,7 +7,7 @@ const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 const blogRoutes = blogData
   .filter((b) => b.publish === 1)
-  .map((b) => `/blog/${b.url_filename}`);
+  .map((b) => `/blog/${b.url}`);
 
 const routes = ["/", "/projects", "/music", "/blog", "/cv", "/research", ...blogRoutes];
 const dist = path.resolve("dist");

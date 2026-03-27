@@ -1,15 +1,18 @@
+.padding {
+  padding: 0.5rem 0.5rem;
+}
+
 .container {
-  padding: 0 0;
+  padding-top: 0;
+  padding-left: 0;
+  padding-right: 0;
   display: flex;
   width: 100%;
   margin: 0 0;
   align-items: center;
   justify-items: center;
   flex-direction: column;
-}
-
-.padding {
-  padding: 0.5rem 0.5rem;
+  padding-bottom: 2rem;
 }
 
 .hfill {

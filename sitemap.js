@@ -4,21 +4,12 @@ import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 // Scan blog directory for posts
-const blogDir = path.resolve(__dirname, 'src/assets/blog/markdowns')
-const blogPosts = []
+const blogPath = path.resolve(__dirname, "src/assets/blog/blog.json");
+const blogData = JSON.parse(fs.readFileSync(blogPath, "utf-8"));
 
-if (fs.existsSync(blogDir)) {
-  const files = fs.readdirSync(blogDir)
-  files.forEach((file) => {
-    if (file.endsWith('.md')) {
-      const slug = file.replace(/\.(md)$/, '')
-      // Skip index file
-      if (slug !== 'index') {
-        blogPosts.push(slug)
-      }
-    }
-  })
-}
+const blogUrls = blogData
+  .filter((b) => b.publish === 1)
+  .map((b) => b.url);
 
 // Generate sitemap
 const baseUrl = 'https://rishinandha.github.io'
@@ -46,10 +37,10 @@ let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
   </url>`
 
 // Add blog posts dynamically
-blogPosts.forEach((post) => {
+blogUrls.forEach((url) => {
   sitemap += `
   <url>
-    <loc>${baseUrl}/blog/${post}</loc>
+    <loc>${baseUrl}/blog/${url}</loc>
     <lastmod>${today}</lastmod>
     <changefreq>never</changefreq>
     <priority>0.8</priority>
@@ -70,4 +61,4 @@ fs.writeFileSync(
   sitemap
 )
 
-console.log(`✓ Generated sitemap with ${blogPosts.length} blog posts`)
+console.log(`✓ Generated sitemap with ${blogUrls.length} blog posts`)

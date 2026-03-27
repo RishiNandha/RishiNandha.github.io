@@ -92,7 +92,7 @@ const Blog = () => {
       <div className="blog-page__grid">
         {filteredPosts.length > 0 ? (
           filteredPosts.map((post, index) => (
-            <Iblog key={`blog-${post.url_filename || index}`} {...post} />
+            <Iblog key={`blog-${post.url || index}`} {...post} />
           ))
         ) : (
           <p className="blog-page__empty">No posts match the selected tags.</p>

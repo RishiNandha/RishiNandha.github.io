@@ -3,6 +3,8 @@ This repository contains my personal website. The source code is free to use and
 I have made this template mostly from scratch. If you like it, feel free to host yours with this! My webpage active at [RishiNandha.github.io](https://rishinandha.github.io/)
 
 ## Change Log
+
+- Aug '26: Added Blog - Directly renders from MD files
 - Mar '26: Added Prerendering and Client-side hydration.
 - Nov '25: First Commit. SPA page with a navigation bar.
 
