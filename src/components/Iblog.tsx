@@ -13,14 +13,24 @@ export type BlogProps = {
   related: string[];
 };
 
+const thumbnails = import.meta.glob(
+  "/src/assets/blog/thumbnails/*",
+  {
+    eager: true,
+    import: "default",
+  }
+) as Record<string, string>;
+
+console.log(thumbnails);
+
 export function Iblog(props: BlogProps) {
   const dateISO = new Date(props.date.split("/").reverse().join("-"));
-
+    const thumbSrc = thumbnails[`/src/assets/blog/thumbnails/${props.thumbnail}`];
   return (
     <div className="blog-card">
 
         <div className="blog-card__thumbnail">
-          <img src={`../../public/blogs/thumbnails/${props.thumbnail}`} alt={props.title} />
+          <img src={thumbSrc} alt={props.title} />
         </div>
 
         <div className="blog-card__body">
