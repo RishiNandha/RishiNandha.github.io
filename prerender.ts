@@ -53,7 +53,7 @@ function jsonLdArticle(post: typeof blogData[number], url: string, keywordsO: st
     "@type": "BlogPosting",
     headline: post.title,
     description: trimDesc(post.metaDescription + " " + post.description),
-    image: `${BASE_URL}/thumbnails/${post.thumbnail}`,
+    image: `${BASE_URL}/blogs/thumbnails/${post.thumbnail}`,
     url, keywordsO,
     datePublished: post.date,
     dateModified:  post.date,
@@ -101,7 +101,7 @@ function buildMetaTags(route: string): string {
     if (post) {
       title       = `${post.title} — ${AUTHOR}`;
       description = trimDesc(post.metaDescription + " " + post.description);
-      image       = `${BASE_URL}/thumbnails/${post.thumbnail}`;
+      image       = `${BASE_URL}/blogs/thumbnails/${post.thumbnail}`;
       type        = "article";
       keywords    = [...post.keywords, ...post.tags, AUTHOR, "IIT Madras"].join(", ");
       jsonLd      = jsonLdArticle(post, url, keywords);
