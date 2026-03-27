@@ -15,6 +15,10 @@ const DEFAULT_META = {
 const AUTHOR    = "Rishi Nandha Vanchinathan";
 const SITE_NAME = "Rishi Nandha Vanchinathan";
 
+const OG_IMAGE_WIDTH  = "600"; 
+const OG_IMAGE_HEIGHT = "600";
+const OG_IMAGE_TYPE   = "image/png";
+
 function esc(s: string) {
   return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
@@ -54,7 +58,6 @@ function jsonLdArticle(post: typeof blogData[number], url: string, keywordsO: st
     headline: post.title,
     description: trimDesc(post.metaDescription + " " + post.description),
     image: `${BASE_URL}/blogs/thumbnails/${post.thumbnail}`,
-    url, keywordsO,
     datePublished: post.date,
     dateModified:  post.date,
     author: {
@@ -129,6 +132,9 @@ function buildMetaTags(route: string): string {
     <meta property="og:description" content="${esc(description)}" />
     <meta property="og:image"       content="${image}" />
     <meta property="og:image:alt"   content="${esc(title)}" />${extraOg}
+    <meta property="og:image:width"  content="${OG_IMAGE_WIDTH}" />
+    <meta property="og:image:height" content="${OG_IMAGE_HEIGHT}" />
+    <meta property="og:image:type"   content="${OG_IMAGE_TYPE}" />
 
     <!-- Twitter / X -->
     <meta name="twitter:card"        content="summary_large_image" />
