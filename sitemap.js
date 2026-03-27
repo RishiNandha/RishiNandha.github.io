@@ -4,7 +4,7 @@ import { fileURLToPath } from 'url'
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 // Scan blog directory for posts
-const blogDir = path.resolve(__dirname, 'src/assets/blog')
+const blogDir = path.resolve(__dirname, 'src/assets/blog/markdowns')
 const blogPosts = []
 
 if (fs.existsSync(blogDir)) {

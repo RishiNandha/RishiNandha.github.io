@@ -35,9 +35,12 @@ export function Iblog(props: BlogProps) {
 
             <div className="blog-card__meta">
                 {props.tags.map((tag) => (
-                <span><span key={tag} className="blog-card__tag">
+                <span key={tag}>
+                    <span className="blog-card__tag">
                     #{tag}
-                </span>{"  "}</span>))}
+                    </span>{"  "}
+                </span>
+                ))}
                 <span className="blog-card__meta-icon" aria-hidden="true">
                     📅
                 </span>

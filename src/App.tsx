@@ -11,6 +11,7 @@ import FourOFour from './pages/FourOFour';
 import NavBar from './components/NavBar';
 import CV from './pages/CV';
 import Activism from './pages/Activism.tsx';
+import MdToBlog from './components/MdToBlog';
 
 const MainLayout = () => {
   const location = useLocation();
@@ -28,6 +29,7 @@ const MainLayout = () => {
           <Route path = "/research" element={<Projects />}/>
           <Route path="*" element={<FourOFour />} />
           <Route path="/activism" element={<Activism />} />
+          <Route path="/blog/:post" element={<MdToBlog />} />
         </Routes>
       </main>
     </div>

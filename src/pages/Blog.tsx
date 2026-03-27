@@ -75,12 +75,14 @@ const Blog = () => {
             {ALL_TAGS.map((tag) => {
               const active = selectedTags.includes(tag);
               return (
-                <span><button
-                  key={tag}
-                  onClick={() => toggleTag(tag)}
-                  className={`tag-pill ${active ? "tag-pill--active" : ""}`}>
+                <span key={tag}>
+                  <button
+                    onClick={() => toggleTag(tag)}
+                    className={`tag-pill ${active ? "tag-pill--active" : ""}`}
+                  >
                     #{tag}
-                </button>{" "}</span>
+                  </button>{" "}
+                </span>
               );
             })}
           </div>
