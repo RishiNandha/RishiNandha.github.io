@@ -1,0 +1,32 @@
+@import "./Iproject.css";
+
+.activism-unit {
+  background-color: #252525;
+}
+
+.activism-title {
+  margin-bottom: 0.2rem;
+}
+
+.activism-date {
+  margin-top: 0;
+  margin-bottom: -0.5rem;
+  font-size: 0.95rem;
+  opacity: 0.85;
+}
+
+.activism-description {
+  text-align: justify;
+}
+
+.activism-links {
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .activism-date {
+    text-align: center;
+    margin-bottom: -0.25rem;
+    font-size: 0.9rem;
+  }
+}

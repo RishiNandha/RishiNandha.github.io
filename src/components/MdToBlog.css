@@ -44,7 +44,7 @@
   width: 100%;
   box-sizing: border-box;
   display: grid;
-  grid-template-columns: minmax(0, 0.15fr) minmax(0, 0.65fr) minmax(0, 0.2fr);
+  grid-template-columns: minmax(0, 0.2fr) minmax(0, 0.6fr) minmax(0, 0.2fr);
   gap: 2.5rem;
   align-items: start;
   padding: 0 1rem;
@@ -201,7 +201,7 @@
 .blog-page__content li {
   margin: 0 0 1.2rem;
   font-size: 0.95rem;
-  text-indent: 0.8em;
+  text-indent: 0;
     text-align: justify;
 }
 
@@ -277,6 +277,7 @@
   margin: 0;
   font-family: var(--blog-font-ui);
   letter-spacing: 1px;
+  text-indent: 0;
   /* font-size: 1rem; */
 }
 

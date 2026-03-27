@@ -6,6 +6,7 @@ import remarkMath from "remark-math";
 import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 import rehypeKatex from "rehype-katex";
+import rehypeRaw from "rehype-raw";
 import { FaLinkedin, FaYoutube, FaGithub } from "react-icons/fa";
 import blogData from "../assets/blog/blog.json";
 import "./MdToBlog.css";
@@ -19,6 +20,8 @@ const thumbnails = import.meta.glob(
     import: "default",
   }
 ) as Record<string, string>;
+
+const validUrls = new Set(blogData.map((b) => b.url));
 
 // Updated to match new blog.json shape — also update BlogProps in Iblog.tsx
 type BlogProps = {
@@ -40,7 +43,7 @@ const markdownModules = import.meta.glob("/src/assets/blog/markdowns/*.md", {
   eager: true,
 }) as Record<string, string>;
 
-console.log("Loaded markdown files:", Object.keys(markdownModules));
+// console.log("Loaded markdown files:", Object.keys(markdownModules));
 
 // ─── Types ────────────────────────────────────────────────────────────────────
 type TocEntry = {
@@ -114,6 +117,7 @@ function TableOfContents({ toc, activeId }: { toc: TocEntry[]; activeId: string 
 }
 
 function RelatedCard({ post }: { post: BlogProps }) {
+  // console.log(post);
     const thumbSrc = thumbnails[`/src/assets/blog/thumbnails/${post.thumbnail}`];
   return (
     <Link to={`/blog/${post.url}`} className="related-card">
@@ -164,7 +168,7 @@ export default function MdToBlog() {
   const [activeId, setActiveId] = useState("");
   const contentRef = useRef<HTMLDivElement>(null);
 
-  console.log(post);
+  // console.log(post);
   const meta = (blogData as BlogProps[]).find((b) => b.url === post);
   // Wrong link error
   if (!meta) {
@@ -193,10 +197,12 @@ export default function MdToBlog() {
   }
 
   // ── Related posts resolved via url field ────────────────────────────────────
-  const relatedPosts = meta.related;
+  const relatedPosts = meta.related.filter((url) =>
+    validUrls.has(url)
+  );
   const toc = extractToc(markdown);
-  console.log(relatedPosts);
-  console.log(toc);
+  // console.log(relatedPosts);
+  // console.log(toc);
   // ── Active TOC tracking ──────────────────────────────────────────────────────
   useEffect(() => {
     if (!contentRef.current) return;
@@ -247,6 +253,7 @@ export default function MdToBlog() {
             remarkPlugins={[remarkGfm, remarkMath]}
             rehypePlugins={[
               rehypeSlug,
+              rehypeRaw,
               [rehypeAutolinkHeadings, { behavior: "wrap" }],
               [rehypeKatex, { strict: false }],
             ]}

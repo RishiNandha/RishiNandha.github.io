@@ -9,7 +9,7 @@ const blogRoutes = blogData
   .filter((b) => b.publish === 1)
   .map((b) => `/blog/${b.url}`);
 
-const routes = ["/", "/projects", "/music", "/blog", "/cv", "/research", ...blogRoutes];
+const routes = ["/", "/projects", "/music", "/blog", "/cv", "/research", "/activism", ...blogRoutes];
 const dist = path.resolve("dist");
 const distClient = path.join(dist, "client");
 const template = fs.readFileSync(path.join(distClient, "index.html"), "utf-8");

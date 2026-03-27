@@ -1,12 +1,13 @@
 [
   {
-    "url_filename": "student-leader-pt1",
-    "title": "Being a Student Leader - Part 1: Team Accountability [For Student-Run Clubs]",
-    "publish": 0,
+    "url": "leading-a-student-club-pt1",
+    "filename": "leading_a_student_club_pt1.md",
+    "title": "Leading a Student Club [Part 1]: What Makes or Breaks a Team",
+    "publish": 1,
     "thumbnail": "Studentrun.png",
-    "tags": ["team-operations"],
-    "date": "26/03/2026",
-    "description": "In hope that another student who's considering stepping up for leading a club might find this useful, I share here all the things I found useful during my time as a head in our student-run technical club",
-    "related": []
+    "tags": ["student-leadership"],
+    "date": "28/03/2026",
+    "description": "This article summarizes all the things I've learnt about accountability, trust and culture in student clubs and things that worked for me (and my juniors) during my time as a technical club head",
+    "related": ["leading-a-student-club-pt1"]
   }
 ]
