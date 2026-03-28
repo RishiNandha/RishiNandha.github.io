@@ -71,7 +71,7 @@ Now that we've already mentioned this in the previous part - This is something I
 
 This is a powerful idea because it allows your team to **"fail fast" and get early feedback from the user segment** that might adopt your work early. This idea combined with the idea of externalizing is a strong motivator to get your team into the phase of actually building instead of wasting time theorizing. Unfortunately, **too many technical clubs just get stuck with .PPTX files** and flowcharts instead of getting to the actual demonstrations.
 
-I did not know this when I was the club head, but I do have an anecdote from one of my successors: we had discussed that they will tell their team, "our seniors are asking for real demos like videos working hardware or videos showing a "run all" on jupyter notebooks by first of the month". This helped them externalize the deadline and also make the team skip the pitch decks and jump into hacking together quick solutions.
+I did not know this when I was the club head, but I do have an anecdote from one of my successors: we had discussed that they will tell their team, "our seniors are asking for real demos like videos showing working hardware or a "run all" on jupyter notebooks by first of the month". This helped them externalize the deadline and also make the team skip the pitch decks and jump into hacking together quick solutions.
 
 ### 2.3. Avoiding Redundant Responsibilities and Vague Action Items
 
