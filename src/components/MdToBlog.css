@@ -618,3 +618,24 @@
     line-height: 1.75;
   }
 }
+
+.share-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0rem 0 0 0;
+  padding: 0.5rem 1.2rem;
+  font-family: var(--blog-font-ui);
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--blog-accent);
+  background: transparent;
+  border: 1px solid var(--blog-accent);
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.share-btn:hover {
+  background: rgba(200, 169, 110, 0.12);
+}

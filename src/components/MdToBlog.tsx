@@ -166,6 +166,28 @@ function AuthorBox() {
   );
 }
 
+function ShareButton() {
+  const [copied, setCopied] = useState(false);
+
+  const handleShare = async () => {
+    const url = window.location.href;
+    if (navigator.share) {
+      // Native share sheet on mobile
+      await navigator.share({ url });
+    } else {
+      await navigator.clipboard.writeText(url);
+      setCopied(true);
+      setTimeout(() => setCopied(false), 2000);
+    }
+  };
+
+  return (
+    <button className="share-btn" onClick={handleShare}>
+      {copied ? "✓ Copied!" : "🔗 Share this post"}
+    </button>
+  );
+}
+
 // ─── Main component ───────────────────────────────────────────────────────────
 
 export default function MdToBlog() {
@@ -265,6 +287,7 @@ export default function MdToBlog() {
           >
             {markdown}
           </ReactMarkdown>
+          <ShareButton />   
           <AuthorBox />
         </article>
 
