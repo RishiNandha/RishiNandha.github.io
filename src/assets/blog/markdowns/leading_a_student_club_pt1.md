@@ -111,9 +111,9 @@ This is not only for apologizing to your junior team, but also to any other part
 
 ### 3.2. Credit in Public, Confront in Private
 
-I have seen way too many **teams crumble because their team lead just yells at someone in a group meeting**. I can't stress upon this enough. I've had friends who were immensely passionate about the team when they joined but left the same team with a gruesome story of how that team is toxic that propagates faster than anything else.
+I have seen way too many **teams crumble because their team lead just yells at someone in a group meeting**. I can't stress upon this enough. I've had friends who were immensely passionate about their team when they joined but left the same team with a gruesome story of how that team is toxic, and that story propagates faster than anything else.
 
-> Teams crumble when their team lead decides to yell at someone in a group setting
+> Teams crumble the moment their team lead decides to yell at someone in a group setting
 
 It's important to understand the psychology of people (and we will come back to this same idea again when we talk about publicity in part 2 of the series): **Everyone wants to be the protagonist of their own story**. Hence, noone is going to tolerate it if a leader is actually a threat to their own self-respect and dignity.
 
