@@ -28,15 +28,15 @@ There's no shame in saying "No". In fact, almost everyone leading student clubs 
 
     Also feel free to let me know connecting with anyone in my network might help you in your job search. I would be glad to do whatever I can
 
-This is one example you could possibly write. Your peers most likely won't ask you for any help in this directly per se, but **mentioning that they can contact you for any help even outside the club is a gesture**. It tells them that more than just the club, you also are reliable as a human. Now fast-forward to several months ahead, I had to take a hiatus for reasons I could not disclose, but my peers did not bother asking me to explain why, they just made up for me like nothing ever happened.
+This is one example you could possibly write. Your peers most likely won't ask you for any help in this directly per se, but **mentioning that they can contact you for any help even outside the club is a gesture**. It tells them that more than just the club, you also are reliable as a human. Now fast-forward to several months ahead, I had to take a hiatus for reasons I could not disclose, but my peers did not bother asking me to explain why, they just made up for me like nothing ever happened. When the team knows that you care about your members, they'll care more about the club. 
 
 ### 1.2. Show Up Prepared
 
 This is a cliché one, but worth mentioning. Making the time your peers spend working with you feel productive is one way to respect their time. Showing up prepared is the only way to consistently do that. Other cliché ways to say this would be "lead-by-example" haha!
 
-> Whenever your team learns 3 new things from you, that's when they'll accept you as their leader
-
 But also more importantly, there is a psychological gravity that humans have when they work with confident (or even slightly overconfident) and knowledgeable people. Even if you don't feel very confident naturally (all of us have our own share of it!), you can always boost it by preparing beforehand. Whenever your team learns 3 things from you, that's when they'll accept you as their leader. **It's worth mentioning that these "learnings" need not necessarily just be technical, it can also be things like speech writing, body language, etc.**
+
+> Whenever your team learns 3 new things from you, that's when they'll accept you as their leader
 
 Being professional matters the same amount too. In our club, we had a thumb-rule that we cannot impose any deadline, meeting or "urgent work" on anyone else if we are announcing it within 24 hours before time. For example, if someone has to schedule a meeting in the next 3 hours, then that would be considered an artefact of misplanning, and others won't be obliged to show up with that short a notice. (Ofcourse voluntarily working together on short notice was still encouraged)
 
