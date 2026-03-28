@@ -28,7 +28,7 @@ There's no shame in saying "No". In fact, almost everyone leading student clubs 
 
     Also feel free to let me know connecting with anyone in my network might help you in your job search. I would be glad to do whatever I can
 
-This is one example you could possibly write. Your peers most likely won't ask you for any help in this directly per se, but **mentioning that they can contact you for any help even outside the club is a gesture**. It tells them that more than just the club, you also are reliable as a human. Now fast-forward to several months ahead, I had to take a hiatus for reasons I could not disclose, but my peers did not bother asking me to explain why, they just made up for me like nothing ever happened. When the team knows that you care about your members, they'll care more about the club. 
+This is one example you could possibly write. Your peers most likely won't ask you for any help in this directly per se, but **mentioning that they can contact you for any help even outside the club is a gesture**. It tells them that more than just the club, you also are reliable as a human. Now fast-forward to several months ahead, I had to take a hiatus for reasons I could not disclose, but my peers did not bother asking me to explain why, they just made up for me like nothing ever happened. When the team knows that you care about your members, they'll care more about the club.
 
 ### 1.2. Show Up Prepared
 
@@ -65,7 +65,7 @@ In other words, make deadlines seem external. Make specifications/requirements f
 
 ### 2.2. Minimum Viable Product
 
-Now that we've already mentioned this in the previous part - This is something I learnt during my Internship at Microsoft. My main goal was to related to demonstrating a graph traversal idea. I was stuck with trying to make C# hit Azure DevOps APIs. My manager told me to first hack my way out of it by just running a "git pull" process in the background, so that I can demonstrate my graph traversal idea as early as possible. He said that producing a "Minimum Viable Product" early is more important than addressing the small details that won't really change the demo visibly.
+Now that we've already mentioned this in the previous part - This is something I learnt during my Internship at Microsoft. My main goal was to demonstrate a graph traversal idea. I was stuck with trying to make C# hit Azure DevOps APIs. My manager told me to first hack my way out of it by just running a "git pull" process in the background, so that I can demonstrate my graph traversal idea as early as possible. He said that producing a "Minimum Viable Product" early is more important than addressing the small details that won't really change the demo visibly.
 
 > Tell your team to produce the minimum viable product that demonstrates your idea, and zoom past the details that won't visibly change the demo.
 
