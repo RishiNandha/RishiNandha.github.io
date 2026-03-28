@@ -123,7 +123,7 @@ Giving **credit and announcing acknowledgements in organization-level meetings**
 
 ## 4. Misc: Cr*p Sandwich, Timing your Feedbacks, Nurturing the Sincere Ones
 
-How feedback is given matters, and how it's timed matters. Follow the cr*p sandwich shown below. Time your feedback: calling out a mistake in the presentation just 5 minutes after it was executed is demoralizing and kills your team's spirit. Bringing it up in the project meeting 3-4 days later is constructive.
+How feedback is given matters, and how it's timed matters. Follow the cr*p sandwich shown below. Time your feedback: calling out a mistake in a presentation just 5 minutes after it was executed is demoralizing and kills your team's spirit. In contrast, bringing it up in the project meeting 3-4 days later is constructive.
 
 <p style="text-align: center; justify-self: center;">
   <img 
