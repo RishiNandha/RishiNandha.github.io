@@ -18,7 +18,7 @@ const About = () => {
         </div>
         <p>I'm a final year student at IIT Madras (Integrated B.Tech + M.Tech) with experience in RF IC Design.</p>
         {/* { fss} */}
-        <p>My research interests are analog in-memory and neuromorphic architectures. You can find some of my selected projects <Link to="/projects">here</Link>.</p>
+        <p>My research interests are neuromorphic and other emerging paradigms of computing. You can find some of my selected projects <Link to="/projects">here</Link>.</p>
         {/* <p>\n</p> */}
         <p>I also play the guitar and write music. Some originals I have written with my friends can be found <Link to="/music">here</Link>.</p>
       </div>
