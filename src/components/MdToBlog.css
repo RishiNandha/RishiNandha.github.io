@@ -21,7 +21,7 @@
   box-sizing: border-box;
   color: var(--blog-text);
   font-family: var(--blog-font-body);
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .headerwrap {
@@ -611,5 +611,10 @@
 
   .author-box__written {
     text-align: center;
+  }
+  .blog-page__content p,
+  .blog-page__content li {
+    font-size: 1rem;
+    line-height: 1.75;
   }
 }
