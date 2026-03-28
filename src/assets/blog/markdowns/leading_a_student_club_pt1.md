@@ -32,7 +32,7 @@ This is one example you could possibly write. Your peers most likely won't ask y
 
 ### 1.2. Show Up Prepared
 
-This is a cliché one, but worth mentioning. Making the time your peers spend working with you feel productive is one way to respect their time. Showing up prepared is the only way to consistently do that. Other cliché ways to say this would be "lead-by-example" haha!
+Making the time your peers spend working with you feel productive is one way to respect their own time. Showing up prepared is the only way to consistently do that. Other cliché ways to say this would be "lead-by-example" haha!
 
 But also more importantly, there is a psychological gravity that humans have when they work with confident (or even slightly overconfident) and knowledgeable people. Even if you don't feel very confident naturally (all of us have our own share of it!), you can always boost it by preparing beforehand. Whenever your team learns 3 things from you, that's when they'll accept you as their leader. **It's worth mentioning that these "learnings" need not necessarily just be technical, it can also be things like speech writing, body language, etc.**
 
