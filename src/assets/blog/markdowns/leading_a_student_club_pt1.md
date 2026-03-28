@@ -69,7 +69,7 @@ Now that we've already mentioned this in the previous part - This is something I
 
 > Tell your team to produce the minimum viable product that demonstrates your idea, and zoom past the details that won't visibly change the demo.
 
-This is a powerful idea because it allows your team to "fail fast" and get early feedback from the user segment that might adopt your work early. This idea combined with the idea of externalizing is a strong motivator to get your team into the phrase of actually building instead of wasting time theorizing. Unfortunately, **too many technical clubs just get stuck with just .PPTX files** that have fancy flowcharts instead of actual demonstrations.
+This is a powerful idea because it allows your team to **"fail fast" and get early feedback from the user segment** that might adopt your work early. This idea combined with the idea of externalizing is a strong motivator to get your team into the phase of actually building instead of wasting time theorizing. Unfortunately, **too many technical clubs just get stuck with just .PPTX files** that have fancy flowcharts instead of actual demonstrations.
 
 I did not know this when I was the club head, but I do have an anecdote from one of my successors: we had discussed that they will tell their team, "our seniors are asking for real demos like videos working hardware or videos showing a "run all" on jupyter notebooks by first of the month". This helped them externalize the deadline and also make the team skip the pitch decks and jump into hacking together quick solutions.
 
@@ -138,3 +138,4 @@ Moreover, there will always be this subset of folks who are being very sincere a
 ## Final Note - Credit Where it's Due
 
 I wouldn't have been able to learn all of this without the rest of my team being immensely cooperative during my time in the club, and also all my juniors who continued to keep in touch. "Legacy is like planting seeds in a garden you'll never get to see" - Lin Manuel Miranda. I want to be very clear that by writing this article, I am not trying to say I was the best the club ever had. In fact, the upcoming teams only got better and better! It's great to see them file patents and produce more IPs every year. If you found this article useful, do share it further! (and give [Sahaay](https://www.linkedin.com/company/sahaay-iitmadras/) a follow)
+
