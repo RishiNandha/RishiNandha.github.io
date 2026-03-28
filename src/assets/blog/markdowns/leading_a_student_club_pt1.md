@@ -87,9 +87,9 @@ Nothing happens as per the textbook. "Theory can only take you so far". In such 
 
 ### 3.1. Apologize, not with a Justification, but with a Course of Action
 
-What happens when you make a mistake? More importantly, what happens when there was a miscommunication and some essential task was not done by your team? Most people think "I'm genuinely sorry" will make that cut. Unfortunately, the phase is malformed in itself: **if an adjective like "genuinely" has to substantiate how much you mean the apology, then your apology doesn't make the cut.**
+What happens when you make a mistake? More importantly, what happens when there was a miscommunication and some essential task was not done by your team? Most people think "I'm genuinely sorry" will make that cut. Unfortunately, the phrase is malformed in itself: **if an adjective like "genuinely" has to substantiate how much you mean the apology, then your apology doesn't make the cut.**
 
-Unfortunately, far too many people who are heading some club end up either riding on their ego to never step down and apologize, or **end up explaining their side of things after the apology thereby undoing the apology**. Consider the following apology:
+Unfortunately, far too many people who are heading some club end up either riding on their ego to never step down and apologize, or **end up justifying their side of things after the apology thereby undoing the apology**. Consider the following apology:
 
     Hey guys, I'm sorry to let you know that our collaborator has backed out of the project. I sincerely apologize for this setback. You folks have put in sincere efforts into this project and we will make sure we recover from this soon.
 
