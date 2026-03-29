@@ -32,9 +32,9 @@ This is one example you could possibly write. Your peers most likely won't ask y
 
 ### 1.2. Show Up Prepared
 
-Making the time your peers spend working with you feel productive is one way to respect their own time. Showing up prepared is the only way to consistently do that. Other cliché ways to say this would be "lead-by-example" haha!
+Making the time your peers spend working with you feel productive is one way to respect their own time. Posting the agenda beforehand and showing up prepared is the only way to consistently do that. Other cliché ways to say this would be "lead-by-example" haha!
 
-But also more importantly, there is a psychological gravity that humans have towards working with confident (or even slightly overconfident) and knowledgeable people. Even if you don't feel very confident naturally (all of us have our own share of it!), you can always boost it by preparing beforehand. Whenever your team learns 3 things from you, that's when they'll accept you as their leader. **It's worth mentioning that these "learnings" need not necessarily just be technical, it can also be things like speech writing, body language, etc.**
+There is a psychological gravity that humans have towards working with confident (or even slightly overconfident) and knowledgeable people. Even if you don't feel very confident naturally (all of us have our own share of it!), you can always boost it by preparing beforehand. Whenever your team learns 3 things from you, that's when they'll accept you as their leader. **It's worth mentioning that these "learnings" need not necessarily just be technical, it can also be things like speech writing, body language, etc.**
 
 > Whenever your team learns 3 new things from you, that's when they'll accept you as their leader
 
@@ -101,7 +101,7 @@ Unfortunately, far too many people who are heading some club end up either ridin
 
 Now let's dissect this:
 
-1. Note that I am saying that I **take full responsibility** for what happened. Reality is, it is not entirely on me. I don't mean to justify myself here, but its worth mentioning. Firstly, the team really did take longer to finish the first milestone than what we planned. And more importantly, it is unprofessional on the collaborator's side to cut us off with no follow-ups / nudges. But sometimes, you have to bite the bullet and take it upon you, and be the bigger person - for the better. It helps to say "I'm the most well-informed animal in this particular exchange, and I could just take it upon myself and make it quick to move past"
+1. Note that I am saying that I **take full responsibility** for what happened. Reality is, it is not entirely on me. I don't mean to justify myself here, but its worth mentioning. Firstly, we really did take longer to finish the first milestone than what we planned within our limited capacity. And more importantly, it is unprofessional on the collaborator's side to cut us off with no follow-ups / nudges. But sometimes, you have to bite the bullet and take it upon you, and be the bigger person - for the better. It helps to say "I'm the most well-informed animal in this particular exchange, and I could just take it upon myself and make it quick to move past"
 2. **I am not justifying my actions.** But I am trying to be transparent with what exactly happened. Justifying will undo my apology, while transparency reinitiates the team's faith.
 3. **I am giving them a course of action**, a reason to believe that they can still put their faith on me. Why should they believe I will fix this? Because I jumped right into "what-next" and have already devised a plan for it.
 
@@ -119,7 +119,7 @@ It's important to understand the psychology of people (and we will come back to 
 
 Then how exactly will you confront someone who hasn't contributed much to the club? You don't know what is going on in their life, so give them the benefit of the doubt once or twice. Ask in text or mail if they have any particular reason they aren't active. Grant a break if they want one. Only if they repeatedly break their promises they made do you step into action. And action must still be human, and the rest of the team also deserves an explanation of what exactly happened, if this happens. Avoid writing satirical emails when doing this, (Yes, some clubs actually do this, and it damages their reputation more than they think).
 
-Giving **credit and announcing acknowledgements in organization-level meetings** goes a long way. Again, everyone wants to feel like a hero/heroine in their own story. Particularly so if this is a meeting with other seniors / alumni / professors. This builds a great culture. They say "you can tell if a workplace is toxic by just seeing if you get a 'good morning' from the security guard in the morning". This is simply because he/she would've cultivated this habit only because other employees had been kind enough to wish them.
+Giving **credit and announcing acknowledgements in organization-level meetings** goes a long way. Again, everyone wants to feel like a hero/heroine in their own story. Particularly so if this is a meeting with other seniors / alumni / professors. This builds a great culture. They say "you can tell if a workplace is toxic by just seeing if you get a 'good morning' from the security guard in the morning". This is simply because he/she would've cultivated this habit only if the other employees had been kind enough to wish them in the first place.
 
 ## 4. Misc: Cr*p Sandwich, Timing your Feedbacks, Nurturing the Sincere Ones
 
@@ -133,7 +133,9 @@ How feedback is given matters, and how it's timed matters. Follow the cr*p sandw
   />
 </p>
 
-Moreover, there will always be this subset of folks who are being very sincere and proactive. It is your duty to identify these torchbearers. And more importantly, make sure they are never getting an unfair share of responsibilities. You'd never want to make someone feel that they are getting more and more work only because they are getting it done faster. It is your responsibility to treat them like your own mentees and do your job of delegating work right!
+Moreover, there will always be this subset of folks who are being very sincere and proactive. It is your duty to identify these torchbearers. And more importantly, make sure they are never getting an unfair share of responsibilities. You'd never want to make someone feel that they are getting more and more work only because they are getting it done faster. It is your responsibility to treat them like your own mentees and do your job of delegating work right! 
+
+There are many more things to say here (that not just leaders but any human should consider): never interrupting anyone before they are done speaking, never keeping the phone on the desk in meetings, etc... There is no way any single blog post can be comprehensive on these, but luckily you can make your social media feeds bring these ideas to you time to time by subscribing to such content! For example, Simon Sinek has some [brilliant videos](https://m.youtube.com/shorts/dJzJUOqiR_s) which you might want to consider watching.
 
 ## Final Note - Credit Where it's Due
 
