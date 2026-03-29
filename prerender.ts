@@ -9,7 +9,7 @@ const BASE_URL = "https://rishinandha.github.io";
 
 const DEFAULT_META = {
   title: "Rishi Nandha Vanchinathan - Portfolio, Research, Music & Blog",
-  description: "Portfolio of Rishi Nandha Vanchinathan - Research Projects, Music and Blog",
+  description: "Portfolio website of Rishi Nandha V, A student at IITM. Page lists research projects in RF IC Design & Neuromorphic Computing, Original Music & Covers, and Blog Posts",
   image: `${BASE_URL}/RishiNandha.ico`, // put a fallback image in /public
 };
 const AUTHOR    = "Rishi Nandha Vanchinathan";
@@ -17,7 +17,7 @@ const SITE_NAME = "Rishi Nandha Vanchinathan";
 
 const OG_IMAGE_WIDTH  = "600"; 
 const OG_IMAGE_HEIGHT = "600";
-const OG_IMAGE_TYPE   = "image/png";
+const OG_IMAGE_TYPE   = "image/x-icon";
 
 function esc(s: string) {
   return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
