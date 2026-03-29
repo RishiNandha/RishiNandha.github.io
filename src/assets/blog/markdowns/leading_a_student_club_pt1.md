@@ -135,7 +135,7 @@ How feedback is given matters, and how it's timed matters. Follow the cr*p sandw
 
 Moreover, there will always be this subset of folks who are being very sincere and proactive. It is your duty to identify these torchbearers. And more importantly, make sure they are never getting an unfair share of responsibilities. You'd never want to make someone feel that they are getting more and more work only because they are getting it done faster. It is your responsibility to treat them like your own mentees and do your job of delegating work right! 
 
-There are many more things to say here (that not just leaders but any human should consider): never interrupting anyone before they are done speaking, never keeping the phone on the desk in meetings, etc... There is no way any single blog post is comprehensive in these, but luckily you can make your social media feeds bring these ideas to you time to time by subscribing to such content! For example, Simon Sinek has some [brilliant videos](https://m.youtube.com/shorts/dJzJUOqiR_s) which you might want to consider watching.
+There are many more things to say here (that not just leaders but any human should consider): never interrupting anyone before they are done speaking, never keeping the phone on the desk in meetings, etc... There is no way any single blog post can be comprehensive on these, but luckily you can make your social media feeds bring these ideas to you time to time by subscribing to such content! For example, Simon Sinek has some [brilliant videos](https://m.youtube.com/shorts/dJzJUOqiR_s) which you might want to consider watching.
 
 ## Final Note - Credit Where it's Due
 
