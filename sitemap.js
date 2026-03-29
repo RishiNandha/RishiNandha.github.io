@@ -15,7 +15,9 @@ const blogUrls = blogData
 const baseUrl = 'https://rishinandha.github.io'
 const today = new Date().toISOString().split('T')[0]
 
-let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+let sitemap = `---
+---
+<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>${baseUrl}/</loc>
