@@ -5,7 +5,7 @@ import remarkGfm from "remark-gfm";
 import remarkMath from "remark-math";
 import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
-import rehypeKatex from "rehype-katex";
+// import rehypeKatex from "rehype-katex";
 import rehypeRaw from "rehype-raw";
 import { FaLinkedin, FaYoutube, FaGithub } from "react-icons/fa";
 import blogData from "../assets/blog/blog.json";
@@ -282,7 +282,7 @@ export default function MdToBlog() {
               rehypeSlug,
               rehypeRaw,
               [rehypeAutolinkHeadings, { behavior: "wrap" }],
-              [rehypeKatex, { strict: false }],
+              // [rehypeKatex, { strict: false }],
             ]}
           >
             {markdown}
