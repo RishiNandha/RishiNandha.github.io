@@ -117,17 +117,23 @@ function buildMetaTags(route: string): string {
     }
   }
 
+  const isHome = route === "/";
+
+  const canonicalUrl = isHome
+    ? BASE_URL
+    : `${BASE_URL}${route}/`;
+
   return `
     <!-- Injected by prerender -->
     <title>${esc(title)}</title>
     <meta name="description" content="${esc(description)}" />
     <meta name="keywords"    content="${esc(keywords)}" />
-    <link rel="canonical"    href="${url}" />
+    <link rel="canonical"    href="${canonicalUrl}" />
 
     <!-- Open Graph -->
     <meta property="og:site_name"   content="${SITE_NAME}" />
     <meta property="og:type"        content="${type}" />
-    <meta property="og:url"         content="${url}" />
+    <meta property="og:url"         content="${canonicalUrl}" />
     <meta property="og:title"       content="${esc(title)}" />
     <meta property="og:description" content="${esc(description)}" />
     <meta property="og:image"       content="${image}" />
@@ -139,7 +145,7 @@ function buildMetaTags(route: string): string {
     <!-- Twitter / X -->
     <meta name="twitter:card"        content="summary_large_image" />
     <meta name="twitter:site"        content="@rishinandha_v" />
-    <meta name="twitter:url"         content="${url}" />
+    <meta name="twitter:url"         content="${canonicalUrl}" />
     <meta name="twitter:title"       content="${esc(title)}" />
     <meta name="twitter:description" content="${esc(description)}" />
     <meta name="twitter:image"       content="${image}" />
