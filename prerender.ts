@@ -93,7 +93,7 @@ function buildMetaTags(route: string): string {
   let type        = "website";
   let jsonLd      = jsonLdWebsite();
   let extraOg     = "";          // article-specific OG properties
-  let keywords    = "Rishi Nandha Vanchinathan, IIT Madras, RF IC Design, Neuromorphic Computing, research, blog, Rishi iitm, Rishi Nandha V, full duplex iitm, veganism iitm, music iitm, rishi nandha iitm elec, neurmorphic iitm, rishi nandha music, rishi nandha blog, rishi iitm elec";
+  let keywords    = "Rishi Nandha Vanchinathan, IIT Madras, RF IC Design, Neuromorphic Computing, research, blog, Rishi iitm, Rishi Nandha V, full duplex iitm, veganism iitm, music iitm, rishi nandha iitm elec, neurmorphic iitm, rishi nandha music, rishi nandha blog, rishi iitm elec, rishinanda, rishinandha, rishi nanda";
 
   const url = `${BASE_URL}${route}`;
 
@@ -106,7 +106,7 @@ function buildMetaTags(route: string): string {
       description = trimDesc(post.metaDescription + " " + post.description);
       image       = `${BASE_URL}/blogs/thumbnails/${post.thumbnail}`;
       type        = "article";
-      keywords    = [...post.keywords, ...post.tags, AUTHOR, "IIT Madras"].join(", ");
+      keywords    = [...post.keywords, ...post.tags, AUTHOR, "IIT Madras", "rishi nandha", "rishinandha", "rishinanda", "rishi nanda", "rishi iitm elec"].join(", ");
       jsonLd      = jsonLdArticle(post, url, keywords);
 
       // These extra OG tags tell LinkedIn/Facebook it's an article, unlocking richer previews
