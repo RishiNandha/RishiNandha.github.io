@@ -13,16 +13,6 @@ import "./MdToBlog.css";
 // import { slug } from "github-slugger";
 import headshotJpg from '../assets/headshot.jpg';
 
-// import { Helmet } from "react-helmet-async";
-
-// const thumbnails = import.meta.glob(
-//   "/src/assets/blog/thumbnails/*",
-//   {
-//     eager: true,
-//     import: "default",
-//   }
-// ) as Record<string, string>;
-
 const validUrls = new Set(blogData.map((b) => b.url));
 
 // Updated to match new blog.json shape — also update BlogProps in Iblog.tsx

@@ -47,7 +47,7 @@ function jsonLdWebsite(): string {
     ],
     jobTitle: "Research Student",
     affiliation: { "@type": "Organization", name: "IIT Madras" },
-    knowsAbout: ["RF IC Design", "Neuromorphic Computing", "Signal Processing", "Guitar"],
+    knowsAbout: ["RF IC Design", "Neuromorphic Computing", "Music Technology", "Guitar", "Veganism", "IIT Madras"],
   });
 }
 
@@ -93,7 +93,7 @@ function buildMetaTags(route: string): string {
   let type        = "website";
   let jsonLd      = jsonLdWebsite();
   let extraOg     = "";          // article-specific OG properties
-  let keywords    = "Rishi Nandha Vanchinathan, IIT Madras, RF IC Design, Neuromorphic Computing, research, blog";
+  let keywords    = "Rishi Nandha Vanchinathan, IIT Madras, RF IC Design, Neuromorphic Computing, research, blog, Rishi iitm, Rishi Nandha V, full duplex iitm, veganism iitm, music iitm, rishi nandha iitm elec, neurmorphic iitm, rishi nandha music, rishi nandha blog";
 
   const url = `${BASE_URL}${route}`;
 
