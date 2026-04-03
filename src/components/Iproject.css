@@ -170,14 +170,27 @@
     text-align: center;
   }
 
-  .image-wrapper {
-    width: 100%; /* slightly smaller for phones */
-    height: 100%;
-    max-height: 30vh;
+.image-wrapper {
+    width: 100%;
+    height: auto;
+    max-height: none;
     max-width: 40vh;
-    object-fit: cover; 
-    display: block;
-  }
+        border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+.image-wrapper img {
+    width: auto;
+    height: auto;
+    max-height: 28vh;
+    object-fit: contain;
+    border-radius: 2rem;
+    /* min-height: 240px; */
+}
   .oneunit h2 {
     font-size: 1rem;
   }
