@@ -5,7 +5,7 @@
     "title": "Leading a Student Club [Part 1]: What Makes or Breaks a Team",
     "publish": 1,
     "thumbnail": "Studentrun.png",
-    "tags": ["student-leadership"],
+    "tags": ["Student-Leadership"],
     "date": "28/03/2026",
     "description": "This article summarizes all the things I've learnt about accountability, trust and culture in student clubs and things that worked for me (and my juniors) during my time as a technical club head",
     "related": ["leading-a-student-club-pt1"],
@@ -32,6 +32,31 @@
       "IITM startup tips",
       "Student Leadership iitm",
       "leadership rishi iitm"
+    ]
+  },
+  {
+    "url": "full-duplex",
+    "filename": "full_duplex.md",
+    "title": "Full-Duplex RF Transceivers: Can We Transmit & Receive on a Single Antenna?",
+    "publish": 1,
+    "thumbnail": "FD_comp.png",
+    "tags": ["RF-IC-Design"],
+    "date": "04/04/2026",
+    "description": "A walkthrough of the current full-duplex research landscape and an overview of the RF IC research directions being pursued at IIT Madras.",
+    "related": ["full-duplex"],
+    
+    "metaDescription": "Full-Duplex RF Transceivers: Can We Transmit and Receive on a Single Antenna? An intuitive overview of full-duplex RF transceivers, same-channel full-duplex (SCFD), and ongoing research at IIT Madras on enabling simultaneous transmission and reception on a single antenna",
+
+    "keywords": [
+      "rf ic design",
+      "full duplex transceivers",
+      "full duplex iitm",
+      "RF-IC-Design",
+      "Full-Duplex",
+      "Wireless-Communication IITM",
+      "ICS Group IITM",
+      "RF IC IIT Madras",
+      "IIT Madras Research"
     ]
   }
 ]

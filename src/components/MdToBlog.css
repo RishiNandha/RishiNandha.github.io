@@ -192,7 +192,7 @@
 }
 
 .blog-page__content p{
-  margin: 0 0 1.2rem;
+  margin: 0 0 1.1rem;
   font-size: 0.95rem;
   text-indent: 0.8em;
     text-align: justify;
@@ -280,10 +280,18 @@
   /* font-size: 1rem; */
 }
 
-.blog-page__content ul,
+.blog-page__content ul {
+  padding-left: 1.5rem;
+  margin: -0.3rem 0 0.8rem 0.2rem;
+}
 .blog-page__content ol {
   padding-left: 1.5rem;
-  margin: 0 0 0.6rem;
+  margin: 1rem 0 1rem 0rem;
+}
+
+.lessmargin {
+  padding-left: 1.5rem;
+  margin: 0rem 0 0.5rem 0rem;
 }
 
 .blog-page__content li {
@@ -559,7 +567,7 @@
 .references p a,
 .references a {
   text-indent: 0;
-  margin: 0.75rem 0rem 0.75rem 0rem;
+  margin: 0.7rem 0rem 0.7rem 0rem;
 }
 
 /* SMALL DISPLAYS ---------------------------------------------- */

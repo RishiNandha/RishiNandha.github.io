@@ -235,7 +235,7 @@ min-height: 10rem;
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 770px) {
     .blog-card__description {
     font-size: 0.8rem;
     overflow: hidden;

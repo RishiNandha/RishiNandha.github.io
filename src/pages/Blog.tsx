@@ -5,7 +5,14 @@ import blogData from "../assets/blog/blog.json";
 import { useSearchParams } from "react-router";
 import { useMemo } from "react";
 
-const blogList = (blogData as BlogProps[]).filter((post) => post.publish === 1);
+const parseDate = (dateStr: string) => {
+  const [day, month, year] = dateStr.split("/").map(Number);
+  return new Date(year, month - 1, day).getTime();
+};
+
+const blogList = (blogData as BlogProps[])
+  .filter((post) => post.publish === 1)
+  .sort((a, b) => parseDate(b.date) - parseDate(a.date));
 
 const ALL_TAGS = Array.from(
   new Set(blogList.flatMap((post) => post.tags))
