@@ -617,6 +617,10 @@
     font-size: 1rem;
     line-height: 1.75;
   }
+  .figure img {
+    max-width: 95%;
+  }
+
 }
 
 .share-btn {
@@ -638,4 +642,23 @@
 
 .share-btn:hover {
   background: rgba(200, 169, 110, 0.12);
+}
+
+.figure {
+  text-align: center;
+  margin: 1.5rem 0;
+}
+
+.figure img {
+  display: block;
+  margin: 0 auto;   /* THIS centers the image */
+  max-width: 85%;
+  height: auto;
+}
+
+.figure figcaption {
+  font-size: 0.9rem;
+  color: #bab7b0;
+  margin-top: 0.5rem;
+  font-weight: 500;
 }
