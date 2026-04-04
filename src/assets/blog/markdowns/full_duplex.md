@@ -153,8 +153,6 @@ D. Regev et al. [10] showed mathematically that a multi-resonant Z_BAL would be 
 
 > The design of a multi-resonant Z_BAL that achieves high tunability under high-voltage stress remains an avenue for further development
 
-Further, housing the receiver (LNA, mixer, LO buffers, output drivers) on-chip alleviates the requirement for impedance matching at the duplexer’s RX port. This can also help achieve higher bandwidth. 
-
 # 5. The Future?
 
 Translating ideas into silicon remains fundamental to RF IC research. The ideas discussed in this article form the basis of ongoing work at IIT Madras. As part of this effort, my work with Prof. Aniruddhan has translated some of these ideas to the pre-silicon stage, while others remain open for exploration. Future work will focus on pursuing the remaining ideas, and the fabrication and silicon validation of these concepts. We hope this article provides a good overview of the current full-duplex landscape! If this area interests you, feel free to reach out to us!  
