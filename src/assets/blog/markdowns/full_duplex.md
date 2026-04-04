@@ -52,7 +52,7 @@ For any queries on this article, or for expressing interest in knowing more abou
 
 The concept of using a transformer to cancel out common-mode signals dates all the way back to 1968 [7]. Well, who would've thought that this would make a comeback in 2009! It did when Prof. Abidi (UCLA) and collaborators [8] showed that this concept can be used to make a fully integrated duplexer. After this, researchers at UCSD [5], IMEC and KU Leuven [4, 6] further developed tunable on-chip duplexers. Their **hybrid transformer** duplexers essentially looked like these:
 
-<figure class="figure figure_scale_70">
+<figure class="figure figure_scale_65">
   <img src="/blogs/images/HybridT.png" alt="Diagram" />
   <figcaption>
     <b>Figure 4:</b> (a) Duplexer in [8] (2009). (b) Duplexer in [5] (2014)
@@ -66,7 +66,7 @@ In 2018, Abhishek Kumar (now a [Professor at IITH](https://iith.ac.in/ee/akumar/
 
 Let's address it rightaway: Figure 5 shows the duplexer used by Kumar et al. [3]. The current design at IIT Madras follows a very similar duplexer too. Why this works may not be trivial, so we'll consider one perspective at a time. 
 
-<figure class="figure figure_scale_40">
+<figure class="figure figure_scale_35">
   <img src="/blogs/images/Cbridge.png" alt="Diagram" />
   <figcaption>
     <b>Figure 5:</b> Capacitance Bridge Duplexer, Adapted from [3]
@@ -77,7 +77,7 @@ Let's address it rightaway: Figure 5 shows the duplexer used by Kumar et al. [3]
  
 Let's look at the bridge from the TX's perspective. Let's remove the balun for now. The signal developed between the C1 and Z_ANT will be equal to the signal between C2 and Z_BAL if **C1·Z_ANT = C2·Z_BAL**.
 
-<figure class="figure figure_scale_40">
+<figure class="figure figure_scale_35">
   <img src="/blogs/images/balance.png" alt="Diagram" />
   <figcaption>
     <b>Figure 6:</b> TX Perspective, Adapted from [3]
