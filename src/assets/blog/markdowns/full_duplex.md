@@ -18,7 +18,7 @@ Radios in modern communication systems are classified into time-division duplex 
   </figcaption>
 </figure>
 
-When we have two antennas, the self interference (SI) from the TX signal sent on one antenna can be cancelled digitally from the RX signal received on the other with adaptive filters. This is feasible becausewe know exactly what is being transmitted on the TX. But a much more interesting question to ask is: **Can we somehow use the same antenna?**
+When we have two antennas, the self interference (SI) from the TX signal sent on one antenna can be cancelled digitally from the RX signal received on the other with adaptive filters. This is feasible because we know exactly what is being transmitted on the TX. But a much more interesting question to ask is: **Can we somehow use the same antenna?**
 
 <figure class="figure figure_scale_90">
   <img src="/blogs/images/SCFD.png" alt="Diagram" />
