@@ -97,7 +97,7 @@ This approach of making the bridge with capacitors and then having a balun fully
 
 ### 2.4.1. Is Cbridge better than Hybrid Transformer?
 
-Shannon limit for continuous channels with gaussian noise dictates that the bitrate upperbounded by B·log(1 + SNR). And SNR in the TX and RX paths will go down by factors of IL_TX and NF_RX respectively due to the losses. If we approximate (1 + SNR) ~ (SNR), then the total reduction in speed will have a factor of **(IL_TX + NF_RX)**. Thus this quantity is taken as the performance metric for duplexers. [3] showed that using a C-bridge achieves better IL_TX + NF_RX than the hybrid transformers.  
+Shannon limit for continuous channels with gaussian noise dictates that the bitrate is upperbounded by B·log(1 + SNR). And SNR in the TX and RX paths will go down by factors of IL_TX and NF_RX respectively due to the losses. If we approximate (1 + SNR) ~ (SNR), then the total reduction in speed will have a factor of **(IL_TX + NF_RX)**. Thus this quantity is taken as the performance metric for duplexers. [3] showed that using a C-bridge achieves better IL_TX + NF_RX than the hybrid transformers.  
 
 ### 2.4.2. Is SCFD actually better than using two antennas normally? 
 
