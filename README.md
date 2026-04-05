@@ -10,12 +10,13 @@ I have made this template mostly from scratch. If you like it, feel free to host
 
 ## Sitemap
 
-- [Homepage](https://rishinandha.github.io/)
-- [Research Projects](https://rishinandha.github.io/projects)
+- [Homepage](https://rishinandha.github.io)
+- [Research Projects](https://rishinandha.github.io/projects/)
 - [Music - Originals and Covers](https://rishinandha.github.io/music)
-- [Peace and Exemplar Activism](https://rishinandha.github.io/activism)
-- [Blog - List of posts](https://rishinandha.github.io/blog)
-- [Blog  Post - "Leading a Student Club: What Makes or Breaks a Team"](https://rishinandha.github.io/blog/leading-a-student-club-pt1)
+- [Peace and Exemplar Activism](https://rishinandha.github.io/activism/)
+- [Blog - List of posts](https://rishinandha.github.io/blog/)
+- [Blog  Post - "Leading a Student Club [Part 1]: What Makes or Breaks a Team"](https://rishinandha.github.io/blog/leading-a-student-club-pt1/)
+- [Blog Post - "Full Duplex Research at IIT Madras](https://rishinandha.github.io/blog/full-duplex/)
 
 ## License
 
