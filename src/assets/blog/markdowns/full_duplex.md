@@ -38,9 +38,9 @@ We will discuss the EBD in detail here, and briefly touch upon relevant parts fr
 
 #### Disclaimers
 
-This article will focus more on motivating this area of research intuitively. For a more rigorous discussion, consider reading the following publications. [[3]](https://ieeexplore.ieee.org/document/8315501) is a publication by my master's thesis guide [Prof. Aniruddhan](https://www.ee.iitm.ac.in/ani/) and his former PhD student. [[5]](https://rfic.ucsd.edu/wp-content/uploads/2024/12/2014-Tunable_CMOS_Integrated_Duplexer_With_Antenna_Impedance_Tracking_and_High_Isolation_in_the_Transmit_and_Receive_Bands.pdf) is one of the earlier works in this direction. [[4]](https://ieeexplore.ieee.org/document/6942122) is another related work by IMEC and KU Leuven.
+This article will focus more on motivating this area of research intuitively. For a more rigorous discussion, consider reading the following publications. ["Kumar et al. [3]"](https://ieeexplore.ieee.org/document/8315501) is a publication by my master's thesis guide [Prof. Aniruddhan](https://www.ee.iitm.ac.in/ani/) and his former PhD student. ["Abdelhalem et al. [5]"](https://rfic.ucsd.edu/wp-content/uploads/2024/12/2014-Tunable_CMOS_Integrated_Duplexer_With_Antenna_Impedance_Tracking_and_High_Isolation_in_the_Transmit_and_Receive_Bands.pdf) is UCSD's work on this. ["van Liempd et al. [4, 6]"](https://ieeexplore.ieee.org/document/6942122) points to a collection of work by IMEC and KU Leuven.
 
-This article also assumes some background in analog design, and uses terms such as "common-mode rejection ratio" without detailed explanations. The reader is encouraged to look up these terms if they are unfamiliar and follow along!
+This article also assumes some background in analog design, and uses terms such as "common-mode rejection ratio" and "mutual inductance" without detailed explanations. The reader is encouraged to look up these terms if they are unfamiliar and follow along!
 
 #### Correspondence
 
@@ -50,7 +50,7 @@ For any queries on this article, or for expressing interest in knowing more abou
 
 ## 2.1. Some History
 
-The concept of using a transformer to cancel out common-mode signals dates all the way back to 1968 [7]. Well, who would've thought that this would make a comeback in 2009! It did when Prof. Abidi (UCLA) and collaborators [8] showed that this concept can be used to make a fully integrated duplexer. After this, researchers at UCSD [5], IMEC and KU Leuven [4, 6] further developed tunable on-chip duplexers. Their **hybrid transformer** duplexers essentially looked like these:
+The concept of using a transformer to cancel out common-mode signals dates all the way back to 1968 [7]. Well, who would've thought that this would make a comeback in 2009! It did when Prof. Abidi (UCLA) and collaborators [8] showed that this concept can be used to make a fully integrated duplexer. After this, researchers at UCSD [5], IMEC and KU Leuven [4, 6] further developed tunable on-chip duplexers. Their **"hybrid transformer"** duplexers essentially looked like these: 
 
 <figure class="figure figure_scale_65">
   <img src="/blogs/images/HybridT.png" alt="Diagram" />
@@ -59,12 +59,13 @@ The concept of using a transformer to cancel out common-mode signals dates all t
   </figcaption>
 </figure>
 
+The terms "baluns", "transformers" and "hybrid transformers" are all refering to mutual inductances. Some academicians strictly associate these words with their contexts, but most people use these words interchangably today. In the duplexer shown in figure 4(a), the TX's PA is firing directly into a centre-tap of the bottom (B) side. Now this signal will be in common-mode across the ends of side B, so there is no differential across the ends now. Thus, the voltage developed across the top side will also be (ideally) negligible. Section 2.3. discusses the theory of operation in more detail. 
 
-In 2018, Abhishek Kumar (now a [Professor at IITH](https://iith.ac.in/ee/akumar/)) and Prof. Aniruddhan (IITM) proposed that instead of relying on tapping at different points to do the job, we use **lumped capacitors and a standard balun** [3]. They showed that this also greatly improves the performance of the duplexer as we will see soon. 
+In 2018, Dr. Abhishek Kumar (now a [Professor at IITH](https://iith.ac.in/ee/akumar/)) and Prof. Aniruddhan (IITM) [3] proposed that instead of relying on tapping at different points to do the job, we use **lumped capacitors** for the bridge, as we will see in section 2.2. They showed that this also greatly improves the performance of the duplexer as we will see in section 2.4. 
 
 ## 2.2. The Elephant in the Room
 
-Let's address it rightaway: Figure 5 shows the duplexer used by Kumar et al. [3]. The current design at IIT Madras follows a very similar duplexer too. Why this works may not be trivial, so we'll consider one perspective at a time. 
+Let's address it rightaway: Figure 5 shows the duplexer used by Kumar et al. The current design at IIT Madras follows a very similar duplexer too.  Follow [[3]](https://ieeexplore.ieee.org/document/8315501) to find more about the multiple advantages they demonstrated with doing so. 
 
 <figure class="figure figure_scale_35">
   <img src="/blogs/images/Cbridge.png" alt="Diagram" />
@@ -75,7 +76,7 @@ Let's address it rightaway: Figure 5 shows the duplexer used by Kumar et al. [3]
 
 ## 2.3. Theory of Operation
  
-Let's look at the bridge from the TX's perspective. Let's remove the balun for now. The signal developed between the C1 and Z_ANT will be equal to the signal between C2 and Z_BAL if **C1·Z_ANT = C2·Z_BAL**.
+Why this works may not be trivial, so let's consider one perspective at a time, starting with the TX as shown in figure 6. Let's remove the balun for now. The signal developed between the C1 and Z_ANT will be equal to the signal between C2 and Z_BAL as long as **C1·Z_ANT = C2·Z_BAL**.
 
 <figure class="figure figure_scale_35">
   <img src="/blogs/images/balance.png" alt="Diagram" />
@@ -84,17 +85,25 @@ Let's look at the bridge from the TX's perspective. Let's remove the balun for n
   </figcaption>
 </figure>
 
-So if we read the RX signal differentially, the TX signal would become a common-mode, which can be cancelled if our RX chain has high CMRR. Hence, we add the balun as shown in figure 5 to cancel the high TX swing before it reaches the LNA in the RX chain. In summary: 
+So if we read the RX signal differentially, the TX signal would become a common-mode, which can be cancelled if our RX chain has a high CMRR. Hence, we add the balun as shown in figure 5 to cancel the high TX swing before it reaches the LNA in the RX chain. In summary: 
 
 > 1. **TX Signal is seen as a common-mode across RX**
 > 2. ANT Signal is seen in differential-mode across the RX after incurring a small loss, we'll call this **"NF_RX"**
 > 3. TX Signal reaches the Antenna after incurring a small loss, we'll call this **"IL_TX"**.
 
+This approach of making the bridge with capacitors and then having a balun fully decoupled from the bridge alleviates multiple design constraints that were imposed on the transformer earlier. 
+
 ## 2.4. Is This Actually Better? - Performance Metrics
 
-Shannon limit dictates that the bitrate varies as the B·log(1 + SNR). So the reduction in bitrate for the TX and RX paths are approximately IL_TX and NF_RX respectively. Thus **IL_TX + NF_RX** is taken as the performance metric for duplexers. 
+### 2.4.1. Is Cbridge better than Hybrid Transformer?
 
-If we had two antennas, we would transmit and receive on both. So there is an additional factor of 2 on both RX and TX paths when we compare 2x SCFD antennas with 2x conventional FD antennas. So if we have **IL_TX + NF_RX < 12 dB**, then the design can be considered worthwhile. [3] showed that using a C-bridge achieves better IL_TX + NF_RX than the hybrid transformers. 
+Shannon limit for continuous channels with gaussian noise dictates that the bitrate varies as the B·log(1 + SNR). And SNR in the TX and RX paths will go down by factors of IL_TX and NF_RX respectively. If we approximate (1 + SNR) ~ (SNR), then the total reduction in speed will have a factor of **(IL_TX + NF_RX)**. Thus this quantity is taken as the performance metric for duplexers.  [3] showed that using a C-bridge achieves better IL_TX + NF_RX than the hybrid transformers.  
+
+### 2.4.2. Is SCFD actually better than using two antennas normally? 
+
+For a fair comparison we should take two antennas in both cases and see which one achieves better bitrate. If we had two SCFD antennas, we would transmit and receive on both. So there is an additional factor of 2 on both RX and TX paths when we compare with 2x conventional FD antennas. And we have the losses dicussed above. So if we have **IL_TX + NF_RX < 12 dB**, then the design can be considered worthwhile.
+
+> (IL_TX + NF_RX) is taken to be the figure of merit for electrical balance duplexers
 
 # 3. Why Should Z_BAL Be Tunable?
 

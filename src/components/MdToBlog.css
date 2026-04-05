@@ -268,14 +268,14 @@
   background: rgba(125, 120, 94, 0.25);
   border-radius: 0 var(--blog-radius) var(--blog-radius) 0;
   color: #e9e8e8;
-  font-style: strong;
-  font-weight: 545;
+  /* font-style: strong; */
+  font-weight: 540;
 }
 
 .blog-page__content blockquote p {
   margin: 0;
   font-family: var(--blog-font-ui);
-  letter-spacing: 1px;
+  /* letter-spacing: 0.1px; */
   text-indent: 0;
   /* font-size: 1rem; */
 }
