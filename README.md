@@ -18,8 +18,16 @@ I have made this template mostly from scratch. If you like it, feel free to host
 - [Blog  Post - "Leading a Student Club [Part 1]: What Makes or Breaks a Team"](https://rishinandha.github.io/blog/leading-a-student-club-pt1/)
 - [Blog Post - "Full Duplex Research at IIT Madras](https://rishinandha.github.io/blog/full-duplex/)
 
-## License
+## Template License
 
-This project is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
-You are free to use, modify, and distribute this code for personal or commercial purposes, provided that proper credit is given.
-© 2026 Rishi Nandha Vanchinathan
+This project’s source code is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). You are permitted to use, modify, and distribute the code, including for commercial purposes, provided that proper attribution is given.
+
+Copyright © 2026 Rishi Nandha Vanchinathan
+
+## Content License
+
+Unless otherwise stated, all original content in this repository, including blog posts, written articles, and other published material, is proprietary and is not released under the code license above.
+
+No part of this content may be reproduced, redistributed, or republished without prior written permission.
+
+Copyright © 2026 Rishi Nandha Vanchinathan
