@@ -12,6 +12,10 @@
             {
                 "link": "https://www.ee.iitm.ac.in/ani/",
                 "annotation": "Advisor: Prof. Aniruddhan"
+            },
+            {
+                "link": "https://rishinandha.github.io/blog/full-duplex/",
+                "annotation": "Blog Post"
             }
         ],
         "year": 2026,
@@ -34,28 +38,6 @@
         ],
         "year": 2024,
         "type": "research"
-    },
-    {
-        "title": "Training Quantization-Aware Sigmoid Weights for RRAM Synaptic Arrays",
-        "imageSrc": "/projects/bnn.png",
-        "description1": "As part of our coursework, we were tasked with training a neural network, quantizing the weights post-training and inferencing them on a passive RRAM Synaptic Array. We explored beyond this and implemented a quantization-aware model that uses sigmoid weights directly instead of quantizing post-training",
-        "description2": "Although limited by diminishing gradients for deeper networks, we observed a reduction in quantization-induced errors in relatively smaller networks. We've compared our results on the same dataset as used by Li et al in 2018 paper in the write-up below",
-        "links": [
-            {
-                "link": "https://github.com/RishiNandha/CMOS-Binary-Neural-Network/blob/47cf71b09709e14cf668042fba5bd74f387e40de/Documentation.pdf",
-                "annotation": "Write-Up"
-            },
-            {
-                "link":"https://scholar.google.com/citations?user=kyjPyQMAAAAJ&hl=en",
-                "annotation": "Advisor: Prof. Bhaswar" 
-            },
-            {
-                "link": "https://www.nature.com/articles/s41467-023-40770-4",
-                "annotation": "Li et al.'s Paper"
-            }
-        ],
-        "year": 2024,
-        "type":"research"
     },
     {
         "title": "Open Source - Quantum Datasets for Fast-Forwarding",
@@ -84,6 +66,10 @@
             {
                 "link": "https://www.linkedin.com/company/sahaay-iitmadras/",
                 "annotation": "Sahaay Linkedin Page"
+            },
+            {
+                "link": "https://rishinandha.github.io/blog/leading-a-student-club-pt1/",
+                "annotation": "Blog - Leading a Student Club"
             }
         ],
         "year": 2023,
