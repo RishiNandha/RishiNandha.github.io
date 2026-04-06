@@ -41,7 +41,7 @@
     "publish": 1,
     "thumbnail": "FD_comp.png",
     "tags": ["RF-IC-Design"],
-    "date": "04/04/2026",
+    "date": "05/04/2026",
     "description": "A walkthrough of the current full-duplex research landscape and an overview of the RF IC research directions being pursued at IIT Madras.",
     "related": ["full-duplex"],
     
@@ -56,7 +56,8 @@
       "Wireless-Communication IITM",
       "ICS Group IITM",
       "RF IC IIT Madras",
-      "IIT Madras Research"
+      "IIT Madras Research",
+      "full duplex research at iitm"
     ]
   }
 ]
