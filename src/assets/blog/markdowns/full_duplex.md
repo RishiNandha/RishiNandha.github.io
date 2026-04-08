@@ -77,7 +77,7 @@ Let's address it rightaway: Figure 5 shows the duplexer used by Kumar et al. The
 
 ## 2.3. Theory of Operation
 
-Why this works may not be trivial, so let's consider one perspective at a time, starting with the TX as shown in figure 6. Let's remove the balun for now. The signal developed between the C1 and Z_ANT will be equal to the signal between C2 and Z_BAL as long as **C1·Z_ANT = C2·Z_BAL**. (Note here that Z_BAL stands for "Balance Impedance", not to be confused with the "balun"/transformer)
+Why this works may not be trivial, so let's consider one perspective at a time, starting with the TX as shown in figure 6. Let's remove the balun for now. The signal developed between the C1 and Z_ANT will be equal to the signal between C2 and Z_BAL as long as **C1·Z_ANT = C2·Z_BAL**. (Note here that Z_BAL stands for "Balance Impedance", not to be confused with the "balun" transformer)
 
 <figure class="figure figure_scale_35">
   <img src="/blogs/images/balance.png" alt="Diagram" />
