@@ -49,20 +49,21 @@
     justify-content: center;
 }
 .tag-pill{
-    font-weight: 500;
     padding: 0.25rem 0.5rem;
     border-radius: 0.3rem;
     font-size: 0.95rem;
-    background: #c9c9c9;
+    background: #dfdfdf;
+    font-weight: 520;
+    letter-spacing: 0.02rem;
 }
 .tag-pill--active{
-    background: #fff6d5;
+    background: #ffffdf;
     color: #000000;
-    font-weight: 600;
+    font-weight: 520;
 }
 
 .tag-pill:hover{
-    background: #e7e7e7;
+    background: #ffffff;
     transform: translateY(-1px);
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.09);
 }

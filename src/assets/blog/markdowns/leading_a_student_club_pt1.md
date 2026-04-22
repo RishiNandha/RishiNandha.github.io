@@ -1,5 +1,3 @@
-# Introduction
-
 I served as the executive head of the [Social Innovation Club of IIT Madras](https://www.linkedin.com/company/sahaay-iitmadras/) during my undergraduate studies. During this time I got to see what makes or breaks the rise (and fall) of student clubs (and arguably, early stage startups). I am writing this "Leading a Student-Run Club" series of articles to share what I have learnt through these. (This won't be another Linkedin slop, I promise!)
 
 The best part about being a student leader in such a club is it requires you to wear multiple hats. We cannot cover everything in one blog post, hence I'll first cover content about gaining the team's faith and enabling consistent progress in this article. I'll write more about strategy, publicity and business relations in the subsequent ones. (I'll try my best to skip all the generic advice that are already too overpreached for what they're worth ;)
