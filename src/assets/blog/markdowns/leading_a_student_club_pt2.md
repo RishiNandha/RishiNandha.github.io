@@ -4,10 +4,9 @@ I consider this one of the bigger successes that came out of my tenure of headin
 
 #### Before We Begin --
 
-While this article focuses mainly on what my team managed to do with Sahaay, I would like to also give a quick shout-out to the [AI Club](https://aiclubcfi.com/) and the [Math Club](https://mathiitm.com/) of IIT Madras. They've always been close friends to Sahaay, and one can always find brilliant folks there. In fact, during my time, my close friends (who tag along with me on the same vacation trips and stuff) were heading these clubs, so we had a healthy and fruitful exchange. (We even took some online interview while sitting in the same car 😂)
+While this article focuses mainly on what my team managed to do with Sahaay, I would like to also give a quick shout-out to the [AI Club](https://aiclubcfi.com/) and the [Math Club](https://mathiitm.com/) of IIT Madras. They've always been close friends to Sahaay, and one can always find brilliant folks there. In fact, during my time, my close friends (who tag along with me on the same vacation trips and stuff) were heading these clubs, so we had a healthy and fruitful exchange of ideas. (We even took some online interviews of our individual clubs while sitting in the same room 😂. We had to take turns to speak without crosstalk)
 
-The Math Club was just registered as a new club in 2022, and they rose to popularity very soon afterwards. They got the 3rd largest pool of fresher applications in the recent years. Today, they are running pan-India [intercollegiate events](https://srmc.co.in/) with remarkable turnout. Clearly, they have their own set of excellent strategies. **(@Mathclub, If you all are reading this, you should also write one such article too!)**. We will briefly touch upon the importance of exchanging ideas with other clubs later in this article.
+The Math Club was just registered as a new club in 2022, and they rose to popularity very soon afterwards. They got the 3rd largest pool of fresher applications in the recent years. Today, they are running pan-India [intercollegiate events](https://srmc.co.in/) with remarkable turnout. Clearly, they have their own set of excellent strategies. **(@Mathclub, If you all are reading this, you should write one such article too!)**. We will briefly touch upon the importance of exchanging ideas with other clubs later in this article.
 
 # Part - II: Strategies for Growth, Publicity and Outreach
-
 
