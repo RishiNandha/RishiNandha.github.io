@@ -23,7 +23,7 @@ function esc(s: string) {
   return s.replace(/&/g, "&amp;").replace(/"/g, "&quot;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 }
 
-// Trim description to ~155 chars at a word boundary — ideal for Google snippets
+// Trim description to ~155 chars at a word boundary - ideal for Google snippets
 function trimDesc(s: string, max = 155): string {
   const clean = s.replace(/\s+/g, " ").trim();
   if (clean.length <= max) return clean;
@@ -102,7 +102,7 @@ function buildMetaTags(route: string): string {
     const post = blogData.find((b) => b.url === slug && b.publish === 1);
 
     if (post) {
-      title       = `${post.title} — ${AUTHOR}`;
+      title       = `${post.title} - ${AUTHOR}`;
       description = trimDesc(post.metaDescription + " " + post.description);
       image       = `${BASE_URL}/blogs/thumbnails/${post.thumbnail}`;
       type        = "article";

@@ -15,7 +15,7 @@ import headshotJpg from '../assets/headshot.jpg';
 
 const validUrls = new Set(blogData.map((b) => b.url));
 
-// Updated to match new blog.json shape — also update BlogProps in Iblog.tsx
+// Updated to match new blog.json shape - also update BlogProps in Iblog.tsx
 type BlogProps = {
   url: string;
   filename: string;
@@ -191,7 +191,7 @@ export default function MdToBlog() {
   if (!meta) {
     return (
       <div className="blog-page blog-page--error">
-        <h2>404 — Not Found</h2>
+        <h2>404 - Not Found</h2>
         <p>
           No such post in <code>/blog/{post}</code>.{" "}
           <Link to="/blog">← Back to main page</Link>
@@ -204,7 +204,7 @@ export default function MdToBlog() {
     if (!markdown) {
     return (
       <div className="blog-page blog-page--error">
-        <h2>404 — Not Found</h2>
+        <h2>404 - Not Found</h2>
         <p>
           Markdown for blog is missing.{" "}
           <Link to="/blog">← Back to main page</Link>

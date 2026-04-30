@@ -5,7 +5,7 @@
     "title": "Leading a Student Club [Part 1]: What Makes or Breaks a Team",
     "publish": 1,
     "thumbnail": "Studentrun.png",
-    "tags": ["Student-Leadership"],
+    "tags": ["Student-Leadership", "Team-Accountability"],
     "date": "28/03/2026",
     "description": "This article summarizes all the things I've learnt about accountability, trust and culture in student clubs and things that worked for me (and my juniors) during my time as a technical club head",
     "related": ["leading-a-student-club-pt1"],
@@ -40,7 +40,7 @@
     "title": "Full-Duplex RF Transceivers: Can We Transmit & Receive on a Single Antenna?",
     "publish": 1,
     "thumbnail": "FD_comp.png",
-    "tags": ["RF-IC-Design"],
+    "tags": ["RF-IC-Design", "Full-Duplex"],
     "date": "05/04/2026",
     "description": "A walkthrough of the current full-duplex research landscape and an overview of the RF IC research directions being pursued at IIT Madras.",
     "related": ["full-duplex"],
@@ -60,4 +60,5 @@
       "full duplex research at iitm"
     ]
   }
+
 ]
