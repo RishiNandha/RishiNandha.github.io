@@ -74,6 +74,25 @@
         ],
         "year": 2023,
         "type": "other"
+    },
+    {
+        "title": "Kossel: Spaced Repetition Bot for Group In-Chat Quizzing",
+        "imageSrc": "/projects/kossel.png",
+        "description1": "During my high school when we were under COVID-19 lockdowns, I developed this discord bot along with Sanjay Bhat on the 'JEE Preperations Discord Server'. Back then I knew him by his discord name 'Light_Yagami#6883' haha! The bot sends questions for rapid-fire quizzing session and leaderboards in chat. I built this as a tool to assist myself with memorizing inorganic chemistry reactions, and to my surprise our telemetry showed about 50+ students who wrote the JEE Advanced 2021 and 2022 using this.",
+        "description2": "The bot implements a spaced repetition algorithm similar to Anki flashcards. This was the pre-LLMs era, and we were manually parsing the answers with string manipulations. I was glad to see the collaborative spirit this bot brought, and if anyone is interested in adding LLM capabilities with today's techniques (and adding support for whatsapp/telegram), feel free to write to me or Sanjay!",
+        "links":[
+            {
+                "link": "https://github.com/RishiNandha/Kossel",
+                "annotation": "Source Code Repository"
+            },
+            {
+                "link": "https://www.linkedin.com/in/sanjay-bhat-6b364a250/",
+                "annotation": "Co-Developer: Sanjay Bhat"
+            }
+        ],
+        "year": 2021,
+        "type": "other"
     }
+
 ]
 
