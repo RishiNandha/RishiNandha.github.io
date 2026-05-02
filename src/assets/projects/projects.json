@@ -6,16 +6,12 @@
         "description2": "",
         "links":[
             {
-                "link": "https://ieeexplore.ieee.org/document/8315501",
-                "annotation": "Kumar et al. (TCAS-I, Oct-2018)"
-            },
-            {
                 "link": "https://www.ee.iitm.ac.in/ani/",
                 "annotation": "Advisor: Prof. Aniruddhan"
             },
             {
                 "link": "https://rishinandha.github.io/blog/full-duplex/",
-                "annotation": "Blog Post"
+                "annotation": "Blog Post on Full Duplex ICs"
             }
         ],
         "year": 2026,
@@ -47,7 +43,7 @@
         "links": [
             {
                 "link": "https://github.com/qiskit-community/qiskit-machine-learning/pull/916#issue-3057905689",
-                "annotation": "Link to PR"
+                "annotation": "Qiskit ML Repository"
             },
             {
                 "link": "https://research.ibm.com/people/dhinakaran-vinayagamurthy",
@@ -68,8 +64,8 @@
                 "annotation": "Sahaay Linkedin Page"
             },
             {
-                "link": "https://rishinandha.github.io/blog/leading-a-student-club-pt1/",
-                "annotation": "Blog - Leading a Student Club"
+                "link": "https://rishinandha.github.io/blog?tag=Student-Leadership",
+                "annotation": "Blog Series: Leading a Student Club"
             }
         ],
         "year": 2023,
