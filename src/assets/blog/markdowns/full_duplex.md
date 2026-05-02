@@ -60,7 +60,7 @@ The concept of using a transformer to cancel out common-mode signals dates all t
   </figcaption>
 </figure>
 
-The terms "baluns", "transformers" and "hybrid transformers" are all refering to mutual inductances. Some academicians strictly associate these words with their contexts, but most people use these words interchangably today. In the duplexer shown in figure 4(a), the TX's PA is firing directly into a centre-tap of the bottom (B) side. Now this signal will be in common-mode across the ends of side B, so there is no differential across the ends now. Thus, the voltage developed across the top side will also be (ideally) negligible. 
+The terms "baluns", "transformers" and "hybrid transformers" are all refering to mutual inductances. Some academicians strictly associate these words with their contexts, but most people use these words interchangably today. In the duplexer shown in figure 4(a), the TX's PA is firing directly into a centre-tap of the bottom (B) side. Now this signal will be in common-mode across the ends of side B, so there is no differential across the ends now. Thus, the voltage developed across the top side will also be (ideally) negligible.
 
 In 2018, Dr. Abhishek Kumar (now a [Professor at IITH](https://iith.ac.in/ee/akumar/)) and Prof. Aniruddhan (IITM) [3] proposed that instead of relying on tapping at different points to do the job, we use **lumped capacitors** for the bridge, as we will see in section 2.2. They showed that this also greatly improves the performance of the duplexer as we will see in section 2.4.
 
@@ -165,7 +165,7 @@ D. Regev et al. [10] showed mathematically that a multi-resonant Z_BAL would be 
 
 # 5. The Future?
 
-Translating ideas into silicon remains fundamental to RF IC research. The ideas discussed in this article form the basis of ongoing work at IIT Madras. As part of this effort, my work with Prof. Aniruddhan has translated some of these ideas to the pre-silicon stage, while others remain open for exploration. Future work will focus on pursuing the remaining ideas, and the fabrication and silicon validation of these concepts. We hope this article provides a good overview of the current full-duplex landscape! If this area interests you, feel free to reach out to us!
+Translating ideas into silicon remains fundamental to RF IC research. The ideas discussed in this article form the basis of ongoing work at IIT Madras. As part of this effort, my work with Prof. Aniruddhan so far has translated some of these ideas to the pre-silicon stage, while others remain open for exploration. Future work will focus on pursuing the remaining ideas, and the fabrication and silicon validation of these concepts. We hope this article provides a good overview of the current full-duplex landscape! If this area interests you, feel free to reach out to us!
 
 # References
 
