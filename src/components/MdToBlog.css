@@ -506,6 +506,42 @@
   font-weight: 400;
 }
 
+/* Bio is one paragraph on desktop; each part becomes its own paragraph on mobile */
+.author-box__bio-part {
+  display: inline;
+}
+
+/* Inline streaming links in the author bio (Spotify / YouTube Music / Apple Music) */
+.author-box__bio .song-link {
+  display: inline-block; /* stops justify from stretching the gap inside "YouTube Music" */
+  white-space: nowrap; /* keeps each logo with its name */
+  font-weight: inherit; /* same weight and size as the sentence */
+  text-decoration: none;
+  transition: opacity 0.15s;
+}
+
+.author-box__bio .song-link:hover {
+  opacity: 0.8;
+}
+
+.author-box__bio .song-link:hover .song-link__name {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.author-box__bio .song-link:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.author-box__bio .song-link svg {
+  width: 1.1em;
+  height: 1.1em;
+  margin: 0 0.3em 0 0.2em; /* a space before and after each logo */
+  vertical-align: -0.2em;
+}
+
 .author-box__links {
   display: flex;
   gap: 0.75rem;
@@ -674,6 +710,19 @@
   }
 
   .author-box__written {
+    text-align: center;
+  }
+
+  .author-box__bio-part {
+    display: block;
+  }
+
+  .author-box__bio-part + .author-box__bio-part {
+    margin-top: 0.6rem;
+  }
+
+  /* Justified text leaves big gaps on narrow screens; centre it to match the centred avatar */
+  .author-box p.author-box__bio {
     text-align: center;
   }
   .blog-page__content p,

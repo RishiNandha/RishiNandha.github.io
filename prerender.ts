@@ -117,6 +117,20 @@ function buildMetaTags(route: string): string {
     }
   }
 
+  if (route.startsWith("/activism/cookbook")) {
+    title = `Cookbook - ${AUTHOR}`;
+    description = "Recipes ranked by protein per local cost and protein per 100 calories.";
+    const slug = route.split("/")[3];
+    if (slug) {
+      const recipe = cookbookRecipes.find(recipe => recipe.publish && recipe.slug === slug);
+      if (recipe) {
+        title = `${recipe.title} - Cookbook - ${AUTHOR}`;
+        description = trimDesc(recipe.description);
+        image = new URL(recipe.image, BASE_URL).href;
+      }
+    }
+  }
+
   const isHome = route === "/";
 
   const canonicalUrl = isHome
@@ -161,7 +175,14 @@ const blogRoutes = blogData
   .filter((b) => b.publish === 1)
   .map((b) => `/blog/${b.url}`);
 
-const routes = ["/", "/projects", "/music", "/blog", "/cv", "/research", "/activism", ...blogRoutes];
+const cookbookDirectory = path.resolve("src/assets/cookbook/recipes");
+const cookbookRecipes = ["inr", "gbp"].flatMap(region => {
+  const directory = path.join(cookbookDirectory, region);
+  return fs.readdirSync(directory).filter(file => file.endsWith(".json"))
+    .map(file => JSON.parse(fs.readFileSync(path.join(directory, file), "utf8")));
+});
+const cookbookRoutes = [...new Set(cookbookRecipes.filter(recipe => recipe.publish).map(recipe => `/activism/cookbook/${recipe.slug}`))];
+const routes = ["/activism/cookbook", ...cookbookRoutes, "/", "/projects", "/music", "/blog", "/cv", "/research", "/activism", ...blogRoutes];
 
 const dist        = path.resolve("dist");
 const distClient  = path.join(dist, "client");

@@ -1,0 +1,113 @@
+{
+  "slug": "tofu-bhurji",
+  "title": "Tofu Bhurji",
+  "description": "High-protein Indian-style tofu scramble with cumin and curry leaves.",
+  "image": "/cookbook/tofu-bhurji.jpg",
+  "minutes": 20,
+  "servings": 1,
+  "protein": 44.2,
+  "calories": 490,
+  "costs": {
+    "INR": 146,
+    "GBP": null
+  },
+  "ingredients": [
+    "½ tsp oil (use 2 tsp for ~60 extra kcal)",
+    "1–1½ tsp cumin (jeera)",
+    "10 curry leaves",
+    "1 onion, chopped",
+    "2 green chillies, chopped",
+    "1 tomato, chopped",
+    "200 g Health on Plants Classic Tofu, grated",
+    "1½–2 tsp salt",
+    "2 tsp garam masala",
+    "½ tsp turmeric",
+    "2 tsp nutritional yeast",
+    "Copious amounts of coriander, chopped, to top"
+  ],
+  "publish": true,
+  "ingredientLinks": {
+    "INR": {
+      "1–1½ tsp cumin (jeera)": "https://www.swiggy.com/instamart/category-listing?categoryName=Masalas+and+Dry+Fruits",
+      "10 curry leaves": "https://instamart.in/c/fresh-vegetables",
+      "1 onion, chopped": "https://instamart.in/c/fresh-vegetables",
+      "2 green chillies, chopped": "https://instamart.in/c/fresh-vegetables",
+      "1 tomato, chopped": "https://instamart.in/c/fresh-vegetables",
+      "200 g Health on Plants Classic Tofu, grated": "https://instamart.in/p/classic-tofu-japanese-style-tofu-RBZ4ASR1FF",
+      "1½–2 tsp salt": "https://www.swiggy.com/instamart/category-listing?categoryName=Masalas+and+Dry+Fruits",
+      "2 tsp garam masala": "https://instamart.in/cb/mtr/ready-and-blended-masala",
+      "½ tsp turmeric": "https://www.swiggy.com/instamart/category-listing?categoryName=Masalas+and+Dry+Fruits",
+      "2 tsp nutritional yeast": "https://instamart.in/p/urban-platter-nutritional-yeast-flakes-DM4YZTQUKP",
+      "Copious amounts of coriander, chopped, to top": "https://instamart.in/c/fresh-vegetables",
+      "½ tsp oil (use 2 tsp for ~60 extra kcal)": "https://www.swiggy.com/instamart/category-listing?categoryName=Oils+and+Ghee"
+    }
+  },
+  "costNotes": {
+    "INR": "Tofu: ₹100 sale price, ₹140 regular (~₹186 recipe total)."
+  },
+  "nutritionNote": "Health on Plants tofu; protein and calories vary by brand.",
+  "estimateNotes": {
+    "INR": "| Ingredient | Cost used |\n| --- | ---: |\n| Tofu, 200 g (assumed sale price; ₹140 regular) | ₹100.00 |\n| Nutritional yeast, 5 g | ₹22.50 |\n| Onion, 100 g | ₹4.90 |\n| Tomato, 100 g | ₹3.00 |\n| Chillies, 10 g | ₹1.50 |\n| Curry leaves, ~2 g | ₹0.36 |\n| Coriander, 20 g | ₹2.20 |\n| Garam masala, ~4 g | ₹7.80 |\n| Turmeric, ~1.5 g | ₹0.74 |\n| Cumin, ~3 g | ₹1.80 |\n| Oil, 2.5 ml | ₹0.40 |\n| Salt, ~10.5 g | ₹0.32 |\n| **Total (rounded)** | **₹146** |\n\nPrices referenced October 2026; ₹100 tofu sale price is based on your purchase experience. Prices vary by shop, brand and bulk buying. Ingredients used only; delivery/fuel extra."
+  },
+  "proteinBreakdown": "| Ingredient | Protein |\n| --- | ---: |\n| Health on Plants tofu, 200 g | 41.2 g |\n| Nutritional yeast, ~5 g | ~3 g |\n| **Total per serving** | **~44.2 g** |\n\nProtein from vegetables, herbs and spices is excluded (roughly 3 to 4 g extra). Values vary by brand.",
+  "currency": "INR",
+  "ingredientAmounts": {
+    "½ tsp oil (use 2 tsp for ~60 extra kcal)": {
+      "quantity": 0.5,
+      "unit": "tsp",
+      "name": "oil (optional extra oil: 2 tsp at 1× adds ~60 kcal per serving)"
+    },
+    "1–1½ tsp cumin (jeera)": {
+      "quantity": 1,
+      "unit": "tsp",
+      "name": "cumin (jeera)",
+      "maxQuantity": 1.5
+    },
+    "10 curry leaves": {
+      "quantity": 10,
+      "unit": "",
+      "name": "curry leaves"
+    },
+    "1 onion, chopped": {
+      "quantity": 1,
+      "unit": "",
+      "name": "onion, chopped"
+    },
+    "2 green chillies, chopped": {
+      "quantity": 2,
+      "unit": "",
+      "name": "green chillies, chopped"
+    },
+    "1 tomato, chopped": {
+      "quantity": 1,
+      "unit": "",
+      "name": "tomato, chopped"
+    },
+    "200 g Health on Plants Classic Tofu, grated": {
+      "quantity": 200,
+      "unit": "g",
+      "name": "Health on Plants Classic Tofu, grated"
+    },
+    "1½–2 tsp salt": {
+      "quantity": 1.5,
+      "unit": "tsp",
+      "name": "salt",
+      "maxQuantity": 2
+    },
+    "2 tsp garam masala": {
+      "quantity": 2,
+      "unit": "tsp",
+      "name": "garam masala"
+    },
+    "½ tsp turmeric": {
+      "quantity": 0.5,
+      "unit": "tsp",
+      "name": "turmeric"
+    },
+    "2 tsp nutritional yeast": {
+      "quantity": 2,
+      "unit": "tsp",
+      "name": "nutritional yeast"
+    }
+  }
+}

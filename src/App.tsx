@@ -1,5 +1,5 @@
 // import React from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation} from 'react-router';
+import { Routes, Route, useLocation} from 'react-router';
 
 import "./App.css";
 
@@ -12,6 +12,8 @@ import NavBar from './components/NavBar';
 import CV from './pages/CV';
 import Activism from './pages/Activism.tsx';
 import MdToBlog from './components/MdToBlog';
+import Cookbook from './pages/Cookbook';
+import MdToRecipe from './components/MdToRecipe';
 
 const MainLayout = () => {
   const location = useLocation();
@@ -29,6 +31,8 @@ const MainLayout = () => {
           <Route path = "/research" element={<Projects />}/>
           <Route path="*" element={<FourOFour />} />
           <Route path="/activism" element={<Activism />} />
+          <Route path="/activism/cookbook" element={<Cookbook />} />
+          <Route path="/activism/cookbook/:slug" element={<MdToRecipe />} />
           <Route path="/blog/:post" element={<MdToBlog />} />
         </Routes>
       </main>

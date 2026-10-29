@@ -1,0 +1,110 @@
+{
+  "slug": "tofu-bhurji",
+  "title": "Tofu Bhurji",
+  "description": "High-protein Indian-style tofu scramble with cumin and curry leaves.",
+  "image": "/cookbook/tofu-bhurji.jpg",
+  "minutes": 20,
+  "servings": 1,
+  "protein": 35.7,
+  "calories": 448,
+  "costs": {
+    "INR": null,
+    "GBP": 2.41
+  },
+  "ingredients": [
+    "½–¾ tsp oil (use 2½ tsp for ~75 extra kcal)",
+    "1¼–2 tsp cumin (jeera)",
+    "12 curry leaves",
+    "1 large onion, chopped",
+    "1 green chilli, chopped",
+    "1 large tomato, chopped",
+    "250 g Lidl plain tofu, grated (or 1 × 280 g Tesco Tofoo Naked pack)",
+    "1¾–2½ tsp salt",
+    "2½ tsp garam masala",
+    "½–¾ tsp turmeric",
+    "2½ tsp nutritional yeast (Engevita B12; ~6.25 g)",
+    "Coriander, chopped, to top (optional; omitted from estimates)"
+  ],
+  "publish": true,
+  "ingredientLinks": {},
+  "costNotes": {
+    "GBP": "Lidl: half a £2.49/500 g pack. Tesco whole-pack recipe: £3.66 to £3.96."
+  },
+  "nutritionNote": "Lidl tofu; protein and calories vary by brand.",
+  "estimateNotes": {
+    "GBP": "| Ingredient used (1×) | Cost used |\n| --- | ---: |\n| Lidl tofu, 250 g (half of £2.49/500 g) | £1.25 |\n| Engevita B12 yeast, ~6.25 g (£4.15/100 g) | £0.26 |\n| 1 large onion, ~125 g (£0.95/kg) | £0.12 |\n| 1 large tomato, ~125 g (£1.55/650 g) | £0.30 |\n| 1 green chilli, ~5 g (£1.15/80 g) | £0.07 |\n| 12 curry leaves, ~2.4 g (£1.60/30 g) | £0.13 |\n| Garam masala, ~5 g (£1/38 g) | £0.13 |\n| Turmeric, ~1.875 g (£1/45 g) | £0.04 |\n| Cumin, ~3.75 g (£1/37 g) | £0.10 |\n| Oil, ~3.125 ml (assumed £2/litre) | <£0.01 |\n| Salt, ~13.125 g (assumed £0.60/kg) | <£0.01 |\n| Optional coriander, excluded | £0.00 |\n| **Lidl-based total (unrounded sum)** | **£2.41** |\n\n**Tesco:** use one whole 280 g Tofoo Naked pack (£2.50 to £2.80). Recipe total: **£3.66 to £3.96**.\n\nPrices referenced while writing in October 2026; Lidl's £2.49/500 g reference is from April 2025. Prices vary by shop, brand and bulk buying. Ingredients used only; delivery/fuel extra."
+  },
+  "proteinBreakdown": "| Ingredient | Protein |\n| --- | ---: |\n| Lidl tofu, 250 g | ~32.75 g |\n| Engevita yeast, ~6.25 g | ~2.94 g |\n| **Total per serving** | **~35.7 g** |\n\nWith a whole 280 g Tesco Tofoo Naked pack: **~49.1 g**. Protein from vegetables, herbs and spices is excluded (roughly 3 to 4 g extra). Values vary by brand.",
+  "currency": "GBP",
+  "ingredientAmounts": {
+    "½–¾ tsp oil (use 2½ tsp for ~75 extra kcal)": {
+      "quantity": 0.625,
+      "unit": "tsp",
+      "name": "oil (optional extra oil: 2½ tsp at 1× adds ~75 kcal per serving)"
+    },
+    "1¼–2 tsp cumin (jeera)": {
+      "quantity": 1.25,
+      "unit": "tsp",
+      "name": "cumin (jeera)",
+      "maxQuantity": 1.875
+    },
+    "12 curry leaves": {
+      "quantity": 12,
+      "unit": "",
+      "name": "curry leaves"
+    },
+    "1 large onion, chopped": {
+      "quantity": 1,
+      "unit": "large",
+      "name": "onion, chopped"
+    },
+    "1 green chilli, chopped": {
+      "quantity": 1,
+      "unit": "",
+      "name": "green chilli, chopped"
+    },
+    "1 large tomato, chopped": {
+      "quantity": 1,
+      "unit": "large",
+      "name": "tomato, chopped"
+    },
+    "250 g Lidl plain tofu, grated (or 1 × 280 g Tesco Tofoo Naked pack)": {
+      "quantity": 250,
+      "unit": "g",
+      "name": "Lidl plain tofu, grated",
+      "alternative": {
+        "quantity": 1,
+        "unit": "× 280 g",
+        "name": "Tesco Tofoo Naked pack"
+      }
+    },
+    "1¾–2½ tsp salt": {
+      "quantity": 1.875,
+      "unit": "tsp",
+      "name": "salt",
+      "maxQuantity": 2.5
+    },
+    "2½ tsp garam masala": {
+      "quantity": 2.5,
+      "unit": "tsp",
+      "name": "garam masala"
+    },
+    "½–¾ tsp turmeric": {
+      "quantity": 0.625,
+      "unit": "tsp",
+      "name": "turmeric"
+    },
+    "2½ tsp nutritional yeast (Engevita B12; ~6.25 g)": {
+      "quantity": 2.5,
+      "unit": "tsp",
+      "name": "nutritional yeast (Engevita B12)"
+    }
+  },
+  "alternativeBatch": {
+    "label": "With whole Tesco Tofoo Naked packs (280 g each)",
+    "minCost": 3.66,
+    "maxCost": 3.96,
+    "protein": 49.1,
+    "calories": 571
+  }
+}

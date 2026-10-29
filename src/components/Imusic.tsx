@@ -1,6 +1,13 @@
 // src/components/Imusic.tsx
 import "./Imusic.css";
-import { useEffect, useRef, type JSX } from "react";
+import { useEffect, useRef, type JSX, type CSSProperties } from "react";
+import { FaSpotify, FaYoutube, FaApple } from "react-icons/fa";
+
+export type StreamingLinks = {
+  spotify?: string;
+  youtubeMusic?: string;
+  appleMusic?: string;
+};
 
 export type MusicProps = {
   title: string;
@@ -8,11 +15,44 @@ export type MusicProps = {
   description: string;
   type: "original" | "cover";
   linkType: "instagram" | "youtube";
+  links?: StreamingLinks;   // optional: only songs that are on streaming platforms
 };
+
+// Order, label, icon and brand colour for each streaming platform
+const PLATFORMS = [
+  { key: "spotify", label: "Spotify", Icon: FaSpotify, color: "#1DB954" },
+  { key: "youtubeMusic", label: "YouTube Music", Icon: FaYoutube, color: "#FF0000" },
+  { key: "appleMusic", label: "Apple Music", Icon: FaApple, color: "#FFFFFF" },
+] as const;
 
 function withTrailingSlash(url: string) {
   const u = url.split("?")[0];
   return u.endsWith("/") ? u : `${u}/`;
+}
+
+function StreamingRow({ links }: { links: StreamingLinks }) {
+  const available = PLATFORMS.filter((p) => links[p.key]);
+  if (available.length === 0) return null;
+  return (
+    <div className="music-streaming">
+      {available.map(({ key, label, Icon, color }) => (
+        <a
+          key={key}
+          href={links[key]}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="stream-btn"
+          style={{ "--brand": color } as CSSProperties}
+        >
+          <Icon className="stream-btn__icon" aria-hidden="true" />
+          <span className="stream-btn__text">
+            <span className="stream-btn__pre">Listen on</span>
+            <span className="stream-btn__name">{label}</span>
+          </span>
+        </a>
+      ))}
+    </div>
+  );
 }
 
 export function Imusic(props: MusicProps) {
@@ -107,6 +147,7 @@ export function Imusic(props: MusicProps) {
       <h2 className="music-title">{props.title}</h2>
       <div className="music-embed">{embed}</div>
       <p className="music-description">{props.description}</p>
+      {props.links && <StreamingRow links={props.links} />}
     </div>
   );
 }

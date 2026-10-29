@@ -7,7 +7,7 @@ import rehypeSlug from "rehype-slug";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";
 // import rehypeKatex from "rehype-katex";
 import rehypeRaw from "rehype-raw";
-import { FaLinkedin, FaYoutube, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaYoutube, FaGithub, FaSpotify, FaApple } from "react-icons/fa";
 import blogData from "../assets/blog/blog.json";
 import "./MdToBlog.css";
 // import { slug } from "github-slugger";
@@ -127,7 +127,29 @@ function RelatedCard({ post }: { post: BlogProps }) {
   );
 }
 
-function AuthorBox() {
+// Streaming links for Madras Avenue's first song, "Crawling Back to Me".
+const SONG_LINKS = [
+  {
+    href: "https://open.spotify.com/track/4E50NEZ8B47mqdi26NOwVI",
+    label: "Spotify",
+    Icon: FaSpotify,
+    color: "#1DB954",
+  },
+  {
+    href: "https://music.youtube.com/watch?v=BkeiH1Ol9u8",
+    label: "YouTube Music",
+    Icon: FaYoutube,
+    color: "#FF0000",
+  },
+  {
+    href: "https://music.apple.com/in/album/crawling-back-to-me/6819337832?i=6819337839",
+    label: "Apple Music",
+    Icon: FaApple,
+    color: "#FFFFFF",
+  },
+];
+
+export function AuthorBox() {
   return (
     <div className="author-box">
       <div className="author-box__avatar-wrap">
@@ -137,8 +159,29 @@ function AuthorBox() {
         <p className="author-box__written">Written by</p>
         <h3 className="author-box__name">Rishi Nandha V</h3>
         <p className="author-box__bio">
-          I'm a final year student at IIT Madras with research experience in RF IC Design and Neuromorphic Computing. I also play the guitar
-          and write music.
+          <span className="author-box__bio-part">
+            I'm a PhD student at Northeastern London. I did my undergrad at IIT Madras.
+            My research expertise is in hardware-software co-design for computing.
+          </span>{' '}
+          <span className="author-box__bio-part">
+            I also play the guitar and write music. Listen to my band's (Madras Avenue) first song on{' '}
+            {SONG_LINKS.map(({ href, label, Icon, color }, i) => (
+              <span key={label}>
+                <a
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="song-link"
+                  style={{ color }}
+                >
+                  <Icon aria-hidden="true" />
+                  <span className="song-link__name">{label}</span>
+                </a>
+                {i < SONG_LINKS.length - 2 ? ", " : i === SONG_LINKS.length - 2 ? " and " : ""}
+              </span>
+            ))}
+            !!
+          </span>
         </p>
         <div className="author-box__links">
           <a href="https://www.linkedin.com/in/rishinandhav/" target="_blank" rel="noopener noreferrer" className="author-box__link" aria-label="LinkedIn">

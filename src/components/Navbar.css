@@ -91,3 +91,11 @@
   font-size: 0.85rem;
   }
 }
+/* Keep the existing navigation within narrow phone viewports. */
+@media (max-width: 768px) {
+  .navbar { box-sizing: border-box; width: 100%; padding: 1rem .5rem; min-width: 0; }
+  .navbar-content { min-width: 0; }
+  .nav-brand { max-width: 100%; text-align: center; overflow-wrap: anywhere; }
+  .nav-links { flex-wrap: wrap; gap: .2rem; min-width: 0; }
+  .nav-link { display: inline-flex; align-items: center; min-height: 44px; box-sizing: border-box; }
+}

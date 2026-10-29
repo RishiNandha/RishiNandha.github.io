@@ -1,8 +1,20 @@
 [
   {
-    "title": "Crawling Back To Me - Semitone (IIT Madras)",
+    "title": "Crawling Back To Me - Madras Avenue",
+    "embedUrl": "https://www.youtube.com/embed/GCfftiInDRU",
+    "description": "Our first single as Madras Avenue, now out on all streaming platforms! It's a progressive metal song we wrote which I produced and played guitar in",
+    "type": "original",
+    "linkType": "youtube",
+    "links": {
+      "spotify": "https://open.spotify.com/track/4E50NEZ8B47mqdi26NOwVI",
+      "youtubeMusic": "https://music.youtube.com/watch?v=BkeiH1Ol9u8",
+      "appleMusic": "https://music.apple.com/in/album/crawling-back-to-me/6819337832?i=6819337839"
+    }
+  },
+  {
+    "title": "Crawling Back To Me - Live at IIT Madras",
     "embedUrl": "https://www.youtube.com/embed/F1HVBgu8__M?si=N3MrXI15ousYHmIQ",
-    "description": "Semitone was a band we formed at IIT Madras. Crawling Back To Me was our first original. I particularly love the work we did on this one. (Wait till the end for the dual solo!)",
+    "description": "Madras Avenue was a band we formed at IIT Madras. Crawling Back To Me was our first original. I particularly love the work we did on this one. (Wait till the end for the dual solo!)",
     "type": "original",
     "linkType": "youtube"
   },

@@ -1,0 +1,100 @@
+{
+  "slug": "spicy-no-chicken-kidney-bean-rice",
+  "title": "Spicy No-Chicken & Kidney Bean Rice",
+  "description": "No-chicken and kidney beans in a spicy tomato sauce, served with jasmine rice.",
+  "image": "/cookbook/spicy-no-chicken-kidney-bean-rice.jpg",
+  "minutes": 30,
+  "servings": 1,
+  "protein": 29.7,
+  "calories": 680,
+  "costs": {
+    "INR": null,
+    "GBP": 1.9
+  },
+  "ingredients": [
+    "½ cup dry jasmine rice (reduce rice for fewer calories and a higher protein-to-calorie ratio)",
+    "1½ cups water, for boiling the rice",
+    "½ × 200 g pack Lidl Vemondo Plain No Chicken Pieces",
+    "½ tbsp chilli bean paste (use less for milder heat)",
+    "¾ tsp garam masala",
+    "¾ tsp ground cumin",
+    "½ × 400 g tin kidney beans, drained and rinsed",
+    "½ × 400 g tin chopped tomatoes",
+    "¾ tsp Italian mixed herbs",
+    "¾ tsp garlic granules",
+    "¼ tsp black pepper",
+    "Salt, to taste"
+  ],
+  "publish": true,
+  "currency": "GBP",
+  "ingredientAmounts": {
+    "½ cup dry jasmine rice (reduce rice for fewer calories and a higher protein-to-calorie ratio)": {
+      "quantity": 0.5,
+      "unit": "cup",
+      "name": "dry jasmine rice (reduce rice for fewer calories and a higher protein-to-calorie ratio)"
+    },
+    "1½ cups water, for boiling the rice": {
+      "quantity": 1.5,
+      "unit": "cups",
+      "name": "water, for boiling the rice"
+    },
+    "½ × 200 g pack Lidl Vemondo Plain No Chicken Pieces": {
+      "quantity": 0.5,
+      "unit": "× 200 g pack",
+      "name": "Lidl Vemondo Plain No Chicken Pieces"
+    },
+    "½ tbsp chilli bean paste (use less for milder heat)": {
+      "quantity": 0.5,
+      "unit": "tbsp",
+      "name": "chilli bean paste (use less for milder heat)"
+    },
+    "¾ tsp garam masala": {
+      "quantity": 0.75,
+      "unit": "tsp",
+      "name": "garam masala"
+    },
+    "¾ tsp ground cumin": {
+      "quantity": 0.75,
+      "unit": "tsp",
+      "name": "ground cumin"
+    },
+    "½ × 400 g tin kidney beans, drained and rinsed": {
+      "quantity": 0.5,
+      "unit": "× 400 g tin",
+      "name": "kidney beans, drained and rinsed"
+    },
+    "½ × 400 g tin chopped tomatoes": {
+      "quantity": 0.5,
+      "unit": "× 400 g tin",
+      "name": "chopped tomatoes"
+    },
+    "¾ tsp Italian mixed herbs": {
+      "quantity": 0.75,
+      "unit": "tsp",
+      "name": "Italian mixed herbs"
+    },
+    "¾ tsp garlic granules": {
+      "quantity": 0.75,
+      "unit": "tsp",
+      "name": "garlic granules"
+    },
+    "¼ tsp black pepper": {
+      "quantity": 0.25,
+      "unit": "tsp",
+      "name": "black pepper"
+    }
+  },
+  "costNotes": {
+    "GBP": "Includes rice. Half-pack/tin quantities used; prices vary by shop, brand and bulk buying."
+  },
+  "nutritionNote": "Includes rice; estimates vary by brand and rice portion.",
+  "estimateNotes": {
+    "GBP": "| Ingredient (1×) | Cost used |\n| --- | ---: |\n| No-chicken, 100 g | ~£1.00 |\n| Kidney beans, ~120 g drained | ~£0.18 |\n| Jasmine rice, ~92.5 g dry | ~£0.22 |\n| Chopped tomatoes, 200 g | ~£0.20 |\n| Chilli bean paste, ~7.5 g | ~£0.05 |\n| Seasonings and salt | ~£0.22 |\n| **Total, rounded estimate** | **~£1.90** |\n\n2× uses one full no-chicken pack, one tin each of beans and tomatoes, and one cup of dry rice. Prices referenced October 2026; no-chicken uses Lidl's January 2025 £1.99 pack reference. Prices vary by shop, brand and bulk buying. Ingredients used only; delivery/fuel extra.\n\nReferences: [no-chicken price](https://corporate.lidl.co.uk/media-centre/pressreleases/2025/vemondo-2025), [beans](https://www.tesco.com/shop/en-GB/products/300808531), [rice](https://asiangroceryuk.co.uk/collections/rice), [chilli bean paste](https://tradewindsorientalshop.co.uk/collections/cooking-stir-fry-sauce/products/lee-kum-kee-chilli-bean-sauce-toban-djan-368g). Tomatoes and seasonings use budget allowances."
+  },
+  "proteinBreakdown": "| Ingredient (1×) | Protein |\n| --- | ---: |\n| No-chicken, 100 g | ~14 g |\n| Kidney beans, ~120 g drained | ~9.5 g |\n| Jasmine rice, ~92.5 g dry | ~6.2 g |\n| **Total per serving** | **~29.7 g** |\n\nProtein from tomatoes, herbs and seasonings is excluded. Values vary by brand.",
+  "regionalIngredientNotes": {
+    "INR": {
+      "½ × 200 g pack Lidl Vemondo Plain No Chicken Pieces": "The UK recipe uses Lidl Vemondo No Chicken. For an Indian equivalent, try 30 g dry soya chunks per serving. Boil the chunks in plenty of water for about 5 minutes, or follow the pack instructions, until soft throughout. Drain, rinse with cool water and squeeze firmly to remove the absorbed water before frying. Then coat with the same spices, sauté and simmer in the sauce. This substitution is untested. If you try it, write back with your results. I'd be glad to include your contributions here."
+    }
+  }
+}

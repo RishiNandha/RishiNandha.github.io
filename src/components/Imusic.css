@@ -43,6 +43,75 @@
   font-size: 1rem;
 }
 
+/* Streaming buttons (Spotify / YouTube Music / Apple Music) */
+.music-streaming {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+  margin: 0.5rem 0 1.5rem;
+}
+
+.stream-btn {
+  --brand: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.6rem 1.3rem 0.6rem 1rem;
+  border-radius: 100px;
+  border: 1.5px solid color-mix(in srgb, var(--brand) 55%, transparent);
+  background: color-mix(in srgb, var(--brand) 10%, transparent);
+  color: #f2f0ec;
+  text-decoration: none;
+  font-family: system-ui, sans-serif;
+  line-height: 1.15;
+  transition: background 0.2s, border-color 0.2s, transform 0.15s, box-shadow 0.2s;
+}
+
+.stream-btn:hover {
+  background: color-mix(in srgb, var(--brand) 20%, transparent);
+  border-color: var(--brand);
+  box-shadow: 0 0 18px color-mix(in srgb, var(--brand) 25%, transparent);
+  transform: translateY(-2px);
+}
+
+.stream-btn:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 3px;
+}
+
+.stream-btn__icon {
+  flex-shrink: 0;
+  width: 1.9rem;
+  height: 1.9rem;
+  color: var(--brand);
+}
+
+.stream-btn__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.stream-btn__pre {
+  font-size: 0.72rem;
+  font-weight: 500;
+  opacity: 0.75;
+}
+
+.stream-btn__name {
+  font-size: 1.05rem;
+  font-weight: 700;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stream-btn,
+  .stream-btn:hover {
+    transition: none;
+    transform: none;
+  }
+}
+
 /* 📱 Mobile */
 @media (max-width: 768px) {
 
@@ -56,5 +125,14 @@
   .music-description {
     font-size: 0.95rem;
     padding: 0 0.5rem;
+  }
+  .music-streaming {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.75rem;
+    padding: 0 0.5rem;
+  }
+  .stream-btn {
+    justify-content: center;
   }
 }
