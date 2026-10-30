@@ -8,7 +8,7 @@
     "tags": ["Student-Leadership", "Team-Accountability"],
     "date": "28/03/2026",
     "description": "This article summarizes all the things I've learnt about accountability, trust and culture in student clubs and things that worked for me (and my juniors) during my time as a technical club head",
-    "related": ["leading-a-student-club-pt1"],
+    "related": ["leading-a-student-club-pt2", "leading-a-student-club-pt1"],
     
     "metaDescription": "Leading a Student Club Series: Part 1 - What Makes or Breaks a Team. Anecdotes from leading a student club at IIT Madras, focusing on accountability and trust. ",
     "keywords": [
@@ -58,6 +58,43 @@
       "RF IC IIT Madras",
       "IIT Madras Research",
       "full duplex research at iitm"
+    ]
+  },
+  {
+    "url": "leading-a-student-club-pt2",
+    "filename": "leading_a_student_club_pt2.md",
+    "title": "Leading a Student Club [Part 2]: Strategies that 10x-ed our Club",
+    "publish": 1,
+    "thumbnail": "Studentrun2.png",
+    "tags": ["Student-Leadership", "Publicity", "Outreach"],
+    "date": "22/04/2026",
+    "description": "This article walks through how we systematically brought our club much more attention and interest, with 10x more member applications and a couple of industry sponsors / NGO collaborations",
+    "related": ["leading-a-student-club-pt1", "leading-a-student-club-pt2"],
+
+    "metaDescription": "Leading a Student Club Series: Part 2 - Strategies for 10x-ing Your Club. Anecdotes from leading a student club at IIT Madras, focusing on publicity, outreach, and growth strategies to increase member applications and industry collaborations.",
+    "keywords": [
+      "student leadership",
+      "publicity for student clubs",
+      "outreach strategies for student clubs",
+      "leading student clubs",
+      "student clubs at IIT Madras",
+      "IIT Madras CFI Sahaay",
+      "How to grow a student club",
+      "How to get industry sponsors for student clubs",
+      "How to collaborate with NGOs as a student club",
+      "leading a student club iitm",
+      "how to be a good cfi club head",
+      "technical club leader at IITs",
+      "How to be a student club head in college",
+      "How to be a student club head in university",
+      "Leadership in IIT Madras",
+      "Techniques to run an early-stage startup",
+      "IITM startup tips",
+      "Student Leadership iitm",
+      "leadership rishi iitm",
+      "how to expand a student club",
+      "how to make your club popular",
+      "how to create interest in your startup among students"
     ]
   }
 

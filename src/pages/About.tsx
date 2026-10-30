@@ -16,9 +16,7 @@ const About = () => {
           <a href="mailto:rishinandha[dot]vanchi[at]gmail[dot]com"><FaEnvelope /></a>
           {/* <a href="https://www.youtube.com/@rishinandha_vanchi" target="_blank" rel="noopener noreferrer"><FaYoutube /></a> */}
         </div>
-        <p>I'm a final year student at IIT Madras (Integrated B.Tech + M.Tech) with experience in RF IC Design.</p>
-        {/* { fss} */}
-        <p>My research interests are neuromorphic and other emerging paradigms of computing. You can find some of my selected projects <Link to="/projects">here</Link>.</p>
+        <p>I'm a PhD student at Northeastern London. I did my Undergrad at IIT Madras. My research expertise is in hardware-software co-design. You can find some of my projects and other repositories <Link to="/projects">here</Link>.</p>
         {/* <p>\n</p> */}
         <p>I also play the guitar and write music. Some originals I have written with my friends can be found <Link to="/music">here</Link>.</p>
       </div>
